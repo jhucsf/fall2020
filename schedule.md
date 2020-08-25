@@ -12,16 +12,16 @@ The links to slides are provided for reference.  In general, there is no guarant
 
 Date               | Topic/Slides | Reading
 ------------------ | ----- | ------- | ------------
-Aug 31             | Course overview, binary data representation review: slides | 1.1–1.9
-Sep 2              | Data representation, addresses: slides | 2.1
-Sep 4              | Integer representation: slides | 2.2
+Aug 31             | Course overview, binary data representation review: [slides](lectures/lecture01-public.pdf) | 1.1–1.9
+Sep 2              | Data representation, addresses: [slides](lectures/lecture02-public.pdf) | 2.1
+Sep 4              | Integer representation: [slides](lectures/lecture03-public.pdf) | 2.2
 Sep 7              | *Holiday, no class*
-Sep 9              | Integer arithmetic: slides | 2.3 |
-Sep 11             | Floating point: slides | 2.4 |
-Sep 14             | Machine-level program representation: slides | 3.1–3.4
-Sep 16             | ALU operations, arithmetic: slides | 3.5
-Sep 18             | Control flow: slides | 3.6 |
-Sep 21             | Procedures, stacks: slides | 3.7
+Sep 9              | Integer arithmetic: [slides](lectures/lecture04-public.pdf) | 2.3 |
+Sep 11             | Floating point: [slides](lectures/lecture05-public.pdf) | 2.4 |
+Sep 14             | Machine-level program representation: [slides](lectures/lecture06-public.pdf) | 3.1–3.4
+Sep 16             | ALU operations, arithmetic: [slides](lectures/lecture07-public.pdf) | 3.5
+Sep 18             | Control flow: [slides](lectures/lecture08-public.pdf) | 3.6 |
+Sep 21             | Procedures, stacks: [slides](lectures/lecture09-public.pdf) | 3.7
 Sep 23             | Assembly language in class exercise
 Sep 25             | Arrays and structs: slides | 3.8–3.9
 Sep 28             | Code and data interactions, buffer overflows: slides  | 3.10
