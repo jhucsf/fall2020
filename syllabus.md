@@ -55,7 +55,21 @@ Videos will be posted on Blackboard: go to <http://my.jhu.edu>, log in, choose <
 
 ## Course Goals
 
-TODO: outcomes
+By the end of the course you will
+
+1. Understand machine data types and arithmetic
+2. Be able to understand and write assembly language programs
+3. Understand machine-level memory organization
+4. Understand some types of machine-level security vulnerabilities and how to avoid introducing them
+5. Understand memory hierarchies
+6. Understand architectural features of modern processors, and how to optimize code for efficient execution
+7. Understand how linkers enable the creation of executables from separately-compiled modules
+8. Understand dynamic linking and run-time loading of shared objects
+9. Understand process address space layout
+10. Understand virtual memory translation hardware and how it is used for memory isolation and sharing
+11. Understand basic principles of computer networking
+12. Use networking APIs such as sockets to implement network applications
+13. Use concurrency using abstractions such as threads
 
 This course will address the following Criterion 3 Student Outcomes:
 
