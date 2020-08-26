@@ -12,11 +12,11 @@ category: "syllabus"
 
 ## Instructor
 
-David Hovemeyer
+[David Hovemeyer](https://www.cs.jhu.edu/~daveho)
 
 Office: Malone 337
 
-Office hours: TBD
+Office hours: TBD (see [Piazza](https://piazza.com/jhu/fall2020/601229) for office hours URL)
 
 ## Course Assistants
 
@@ -84,6 +84,8 @@ Your course grade will be determined as follows:
 * Programming assignments: 55%
 * Exams: 40%
 * Peer instruction quizzes: 5%
+
+You have a total of 5 late days to use as needed for homework assignments throughout the course. Each 24 hour period following an assignment deadline is considered to be one late day: for example, if an assignment is due at 11pm on Friday, but you submit your assignment at 11:30pm on Friday, you have used one late day. If you are planning on using more than two late days on an assignment, please send a private message to the instructors on Piazza to let us know. Assignment submissions which exceed the maximum number of late days will (generally) not be considered for credit.  Having said that, we understand that exceptional circumstances can arise.  If you are in a situation where you think you may need additional late days, please notify your instructor.
 
 ## Key Dates
 
