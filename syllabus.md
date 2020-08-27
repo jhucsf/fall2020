@@ -16,7 +16,7 @@ category: "syllabus"
 
 Office: Malone 337
 
-Office hours: TBD (see [Piazza](https://piazza.com/jhu/fall2020/601229) for office hours URL)
+Office hours: T/Th 1–3pm EDT (see [Piazza](https://piazza.com/jhu/fall2020/601229) for office hours URL)
 
 ## Course Assistants
 
