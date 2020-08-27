@@ -6,6 +6,8 @@ category: "schedule"
 
 This page lists topics, readings, and has links to lecture slides.
 
+This schedule could (and probably will) change!  Changes to the schedule will be announced in class and/or on [Piazza](https://piazza.com/jhu/fall2020/601229).
+
 Unless otherwise indicated, readings are from Bryant and O'Hallaron, [Computer Systems: A Programmer's Perspective, 3rd ed](https://csapp.cs.cmu.edu/).  **Important**: do the reading *before* you come to class.
 
 The links to slides are provided for reference.  In general, there is no guarantee that they will be posted before class, or that their content will not change.
