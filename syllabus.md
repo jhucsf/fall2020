@@ -20,7 +20,14 @@ Office hours: T/Th 1–3pm EDT (see [Piazza](https://piazza.com/jhu/fall2020/601
 
 ## Course Assistants
 
-TODO
+Head CAs:
+
+* Rebecca Yu [ryu16@jhu.edu](mailto:ryu16@jhu.edu)
+* Eric Rong [erong1@jhu.edu](mailto:erong1@jhu.edu)
+
+CAs:
+
+Coming soon!
 
 ## Meeting
 
