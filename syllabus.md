@@ -55,7 +55,7 @@ Videos will be posted on Blackboard: go to <http://my.jhu.edu>, log in, choose <
 
 ## Course Information
 
-* TODO: course description
+* The course is about computer systems from the programmer’s perspective. We’ll be making a fairly deep dive into topics such as data representation, memory, assembly language, CPU architecture, networks, and concurrency. By the end of the course you’ll know a lot about how modern computers really work and how to take advantage of their advanced features.
 * **Prerequisites**<br>
   Intermediate Programming (EN.601.220)
 * **Required**
