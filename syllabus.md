@@ -31,9 +31,9 @@ Coming soon!
 
 ## Meeting
 
-Section 01: MWF 10:00–10:50 am
+Section 01: MWF 9:00–9:50 am
 
-Section 02: MWF 11:00–11:50 am
+Section 02: MWF 10:00–10:50 am
 
 Class meetings will be held virtually via Zoom.  See [Piazza](https://piazza.com/jhu/fall2020/601229) for URLs.
 
