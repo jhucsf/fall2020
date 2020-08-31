@@ -264,7 +264,7 @@ To run valgrind, on your test program, the command is `valgrind ./apintTests`.
 To submit your work:
 
 * Run the command `make solution.zip`
-* Upload `solution.zip` to [Gradescope](https://www.gradescope.com/) as **Assignment1**
+* Upload `solution.zip` to [Gradescope](https://www.gradescope.com/) as **Assignment 1 - Arbitrary-precision arithmetic**
 * Please check the files you uploaded to make sure they are the ones you intended to submit
 
 ## Autograder
