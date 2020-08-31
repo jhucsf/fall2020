@@ -3,7 +3,7 @@ layout: default
 title: "Assignment 1: Arbitrary-precision arithmetic"
 ---
 
-**Due:** TBD
+**Due:** Monday, September 14th by 11pm
 
 # Overview
 

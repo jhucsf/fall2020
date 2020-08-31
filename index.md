@@ -19,4 +19,5 @@ Use the links above to navigate the site.  The [Syllabus](syllabus.html) describ
 
 ## News
 
+* **Aug 31** — [Assignment 1](assign/assign01.html) is due **Monday, September 14th** by 11pm.
 * **Aug 31** — Welcome back!
