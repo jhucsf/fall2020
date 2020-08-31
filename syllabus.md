@@ -27,7 +27,14 @@ Head CAs:
 
 CAs:
 
-Coming soon!
+* Adyant    Balaji [abalaji2@jhu.edu](mailto:abalaji2@jhu.edu)
+* Alison    Lee [alee231@jhu.edu](mailto:alee231@jhu.edu)
+* Charissa    Zou [czou9@jh.edu](mailto:czou9@jh.edu)
+* Dikshith (Bannu)    Kasimahanthi [dkasima1@jhu.edu](mailto:dkasima1@jhu.edu)
+* Jason    Kurlander [jkurlan3@jhu.edu](mailto:jkurlan3@jhu.edu)
+* Ryan    Rubel [rrubel1@jhu.edu](mailto:rrubel1@jhu.edu)
+* Simon    Allocca [sallocc1@jh.edu](mailto:sallocc1@jh.edu)
+* Yunxiao (Gary)    Yang [yyang117@jhu.edu](mailto:yyang117@jhu.edu)
 
 ## Meeting
 
@@ -45,17 +52,26 @@ Optional: [Computer Organization and Design (MIPS edition)](https://www.elsevier
 
 ## Online Resources
 
-Lecture notes, assignments, and public information about the course will be posted on the course website, <https://jhucsf.github.io/fall2020>.  You should check the course website frequently.
+Lecture notes, assignments, and public information about the course will
+be posted on the course website, <https://jhucsf.github.io/fall2020>.
+You should check the course website frequently.
 
 Piazza (announcements, discussion): <https://piazza.com/jhu/fall2020/601229>
 
 Gradescope (assignment/exam submission and grading): <https://www.gradescope.com>
 
-Videos will be posted on Blackboard: go to <http://my.jhu.edu>, log in, choose <b>Education</b> → <b>Blackboard</b>, choose EN.601.229 from courses, then choose <b>Panopto</b>
+Videos will be posted on Blackboard: go to <http://my.jhu.edu>, log in,
+choose <b>Education</b> → <b>Blackboard</b>, choose EN.601.229 from
+courses, then choose <b>Panopto</b>
 
 ## Course Information
 
-* The course is about computer systems from the programmer’s perspective. We’ll be making a fairly deep dive into topics such as data representation, memory, assembly language, CPU architecture, networks, and concurrency. By the end of the course you’ll know a lot about how modern computers really work and how to take advantage of their advanced features.
+* The course is about computer systems from the programmer’s
+  perspective. We’ll be making a fairly deep dive into topics such
+  as data representation, memory, assembly language, CPU architecture,
+  networks, and concurrency. By the end of the course you’ll know a
+  lot about how modern computers really work and how to take advantage of
+  their advanced features.
 * **Prerequisites**<br>
   Intermediate Programming (EN.601.220)
 * **Required**
@@ -82,7 +98,9 @@ This course will address the following Criterion 3 Student Outcomes:
 
 Graduates of the program will have an ability to:
 
-2) Design, implement, and evaluate a computing-based solution to meet a given set of computing requirements in the context of the programs discipline.
+2) Design, implement, and evaluate a computing-based solution to meet
+a given set of computing requirements in the context of the programs
+discipline.
 
 ## Course Topics
 
@@ -104,7 +122,7 @@ Your course grade will be determined as follows:
 
 * Programming assignments: 55%
 * Exams: 40% (4 exams, each worth 10%)
-* Peer instruction quizzes: 5%
+* Activities/quizzes: 5%
 
 You have a total of 5 late days to use as needed for homework assignments throughout the course. Each 24 hour period following an assignment deadline is considered to be one late day: for example, if an assignment is due at 11pm on Friday, but you submit your assignment at 11:30pm on Friday, you have used one late day. If you are planning on using more than two late days on an assignment, please send a private message to the instructors on Piazza to let us know. Assignment submissions which exceed the maximum number of late days will (generally) not be considered for credit.  Having said that, we understand that exceptional circumstances can arise.  If you are in a situation where you think you may need additional late days, please notify your instructor.
 
@@ -175,27 +193,66 @@ the web at these sites:
 
 ## Personal Wellbeing
 
-* If you are sick, in particular with an illness that may be contagious, notify me by email but do not come to class. Rather, visit the Health and Wellness: 1 East 31 Street, 410-516-8270. See also <http://studentaffairs.jhu.edu/student-life/support-and-assistance/absences-from-class/illness-note-policy/>
-* All students with disabilities who require accommodations for this course should contact me at their earliest convenience to discuss their specific needs. If you have a documented disability, you must be registered with the JHU Office for Student Disability Services (Shaffer 101; 410-516-4720; <http://web.jhu.edu/disabilities/>) to receive accommodations.
-* If you are struggling with anxiety, stress, depression or other mental health related concerns, please consider visiting the JHU Counseling Center.  If you are concerned about a friend, please encourage that person to seek out our services. The Counseling Center is located at 3003 North Charles Street in Suite S-200 and can be reached at 410-516-8278 and online at <http://studentaffairs.jhu.edu/counselingcenter/>
+* If you are sick please notify me by email so that we can make appropriate accommodations should this affect your ability to attend class, complete assignments, or participate in assessments. The [Student Health and Wellness Center](https://studentaffairs.jhu.edu/student-health/) is open and operational for primary care needs. If you would like to speak with a medical provider, please call 410-516-8270, and staff will determine an appropriate course of action based on your geographic location, presenting symptoms, and insurance needs. Telemedicine visits are available only to people currently in Maryland. See also <https://studentaffairs.jhu.edu/student-life/student-outreach-support/absences-from-class/illness-note-policy/>
+* The Johns Hopkins COVID-19 Call Center (JHCCC), which can be reached at 833-546-7546 seven days a week from 7 a.m. to 7 p.m., supports all JHU students, faculty, and staff experiencing COVID-19 symptoms. Primarily intended for those currently within driving distance of Baltimore, the JHCCC will evaluate your symptoms, order testing if needed, and conduct contact investigation for those affiliates who test positive. More information on the JHCCC and testing is on the [coronavirus information website](https://covidinfo.jhu.edu/health-safety/johns-hopkins-covid-19-call-center/).
+* All students with disabilities who require accommodations for this course should contact me at their earliest convenience to discuss their specific needs. If you have a documented disability, you must be registered with the JHU Office for Student Disability Services (385 Garland Hall; 410-516-4720; <http://web.jhu.edu/disabilities/>) to receive accommodations.
+* Students who are struggling with anxiety, stress, depression or other mental health related concerns, please consider connecting with resources through the JHU Counseling Center. The Counseling Center will be providing services remotely to protect the health of students, staff, and communities. Please reach out to get connected and learn about service options based on where you are living this fall at 410-516-8278 and online at <http://studentaffairs.jhu.edu/counselingcenter/>.
+* Student Outreach & Support will be fully operational (virtually) to help support students. Students can self-refer or refer a friend who may need extra support or help getting connected to resources. To connect with SOS, please email [deanofstudents@jhu.edu](mailto:deanofstudents@jhu.edu), call 410-516-7857, or students can schedule to meet with a Case Manager by visiting the Student Outreach & Support website and follow “Schedule an Appointment”.
 
 ## Classroom Climate
 
-I am committed to creating a classroom environment that values the diversity of experiences and perspectives that all students bring. Everyone here has the right to be treated with dignity and respect. I believe fostering an inclusive climate is important because research and my experience show that students who interact with peers who are different from themselves learn new things and experience tangible educational outcomes. Please join me in creating a welcoming and vibrant classroom climate. Note that you should expect to be challenged intellectually by me, the TAs, and your peers, and at times this may feel uncomfortable. Indeed, it can be helpful to be pushed sometimes in order to learn and grow. But at no time in this learning process should someone be singled out or treated unequally on the basis of any seen or unseen part of their identity.
+As your instructor, I am committed to creating a classroom environment that values the diversity of experiences and perspectives that all students bring. Everyone here has the right to be treated with dignity and respect. I believe fostering an inclusive climate is important because research and my experience show that students who interact with peers who are different from themselves learn new things and experience tangible educational outcomes. Please join me in creating a welcoming and vibrant classroom climate. Note that you should expect to be challenged intellectually by me, the TAs, and your peers, and at times this may feel uncomfortable. Indeed, it can be helpful to be pushed sometimes in order to learn and grow. But at no time in this learning process should someone be singled out or treated unequally on the basis of any seen or unseen part of their identity.
 
 If you ever have concerns in this course about
-harassment, discrimination, or any unequal treatment, or if you seek
-accommodations or resources, I invite you to share directly with me or
-the TAs. I promise that we will take your communication seriously and
-to seek mutually acceptable resolutions and accommodations. Reporting
-will never impact your course grade. You may also share concerns with
-the Department Head (Randal Burns,
-[randal@cs.jhu.edu](mailto:randal@cs.jhu.edu)),
-the Director of Undergraduate Studies (Joanne Selinski,
-[joanne@cs.jhu.edu](mailto:joanne@cs.jhu.edu)), the Assistant
-Dean for Diversity and Inclusion (Darlene Saporu,
-[dsaporu@jhu.edu](mailto:dsaporu@jhu.edu)), or
-the Office of Institutional Equity ([oie@jhu.edu](mailto:oie@jhu.edu)). In handling reports,
-people will protect your privacy as much as possible, but faculty
-and staff are required to officially report information for some cases
-(e.g. sexual harassment).
+harassment, discrimination, or any unequal treatment, or if you seek
+accommodations or resources, I invite you to share directly with me or
+the TAs. I promise that we will take your communication seriously and
+to seek mutually acceptable resolutions and accommodations. Reporting
+will never impact your course grade. You may also share concerns
+with the department/center chair/head/director (Randal Burns, [randal@cs.jhu.edu](mailto:randal@cs.jhu.edu)),
+the Director of Undergraduate Studies (Joanne Selinski, [joanne@cs.jhu.edu](mailto:joanne@cs.jhu.edu)),
+the Assistant Dean for Diversity and Inclusion (Darlene Saporu, [dsaporu@jhu.edu](mailto:dsaporu@jhu.edu)),
+or the Office of Institutional Equity ([oie@jhu.edu](mailto:oie@jhu.edu)).
+In handling reports, people will protect your privacy
+as much as possible, but faculty and staff are required to
+officially report information for some cases (e.g. sexual harassment).
+
+## Family Accommodations Policy
+
+You are welcome to bring a family member to class on occasional days
+when your responsibilities require it (for example, if emergency child
+care is unavailable, or for health needs of a relative).  In fact,
+you may see my children in class on days when their school is closed. 
+Please be sensitive to the classroom environment, and if your family
+member becomes uncomfortably disruptive, you may leave the classroom
+and return as needed.
+
+## University Policy on Incompletes
+
+The university recognizes that the Fall 2020 semester is surrounded
+with uncertainty and many students may find themselves in unexpected
+situations where study is difficult if not impossible. Students who are
+confronted with extraordinary circumstances that interfere with their
+ability perform their academic work may request an incomplete grade
+from the instructor. While approval of such a request is not automatic,
+it is expected that faculty will make every effort to accommodate
+students dealing with illness in the family and other pandemic-related
+hardships. The instructor and student must establish a timetable for
+submitting the unfinished work with a final deadline no later than
+the end of the third week of the Spring 2021 semester (**February 12,
+2021**). Exceptions to this deadline require a petition from the instructor
+to the student's academic advising office by February 12, 2021. When
+entering an Incomplete grade in SIS, faculty must include a reversion
+grade which represents the grade the student will receive if s/he does
+not complete the missing work by the agreed-upon deadline.
+
+## Deadlines for Adding, Dropping and Withdrawing from Courses
+
+Students may add a course up to **September 11, 2020**. They may drop courses
+up to **October 12, 2020** provided they remain registered for a minimum of 12
+credits. Between **October 12 and November 13, 2020**, a student may withdraw
+from a course with a W on their academic record. A record of the course
+will remain on the academic record with a W appearing in the grade column
+to indicate that the student registered and then withdrew from the course.
+
+For more information on these and other academic policies, see <https://e-catalogue.jhu.edu/engineering/full-time-residential-programs/undergraduate-policies/academic-policies/grading-policies/>
