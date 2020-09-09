@@ -19,5 +19,6 @@ Use the links above to navigate the site.  The [Syllabus](syllabus.html) describ
 
 ## News
 
+* **Sep 9** — The due date for [Assignment 1](assign/assign01.html) has been changed to **Tuesday, September 15th** by 11pm.
 * **Aug 31** — [Assignment 1](assign/assign01.html) is due **Monday, September 14th** by 11pm.
 * **Aug 31** — Welcome back!

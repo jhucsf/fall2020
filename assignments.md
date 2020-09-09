@@ -20,4 +20,4 @@ Please read the [style guidelines](assign/style.html) so that you know what our 
 
 Assignment | Due
 ---------- | ---
-[Assignment 1: Arbitrary-precision arithmetic](assign/assign01.html) | Monday, September 14th by 11pm
+[Assignment 1: Arbitrary-precision arithmetic](assign/assign01.html) | Tuesday, September 15th by 11pm
