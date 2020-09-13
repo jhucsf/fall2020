@@ -13,18 +13,18 @@ In this assignment you will implement a hex dump program using both C and assemb
 
 **Acknowledgment:** The idea for this assignment comes from the [Fall 2018 HW5](https://www.cs.jhu.edu/~phf/2018/fall/cs229/simple-x86_64.html) developed by Peter Froehlich.
 
-### Submission Part 1
+## Submission Part 1
 **Due date 1:** Wednesday, September 23, 2020 @ 11pm
 
 For this submission, all C language function implementations must be working with unit tests written. In addition, _at least_ the Assembly language functions of `hex_to_printable` and `hex_format_byte_as_hex` must be working with unit tests written.
 
-### Submission Part 2
+## Submission Part 2
 **Due date 2:** Tuesday, September 28, 2020 @ 11pm
 
 Rest of the Assembly language functions must be written with thorough unit tests. Uploads for this submission should include the C implementation and unit tests submitted for part 1 as well.
 
 
-### Grading breakdown
+## Grading breakdown
 **Part 1** (30 points)
 
 C implementation - 10% 
