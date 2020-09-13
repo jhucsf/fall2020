@@ -11,6 +11,17 @@ title: "Assignment 2: Hex dump"
 
 In this assignment you will implement a hex dump program using both C and assembly language. The submission of this assignment will be broken up to two parts as listed below. 
 
+The assembly portion of this assignment is **all** about hacking **native** [x86\_64](https://en.wikipedia.org/wiki/X86-64) assembly code. For obvious reasons, **you’ll need a *64-bit* Lubuntu 18.04 LTS reference
+system;** you cannot do this assignment on a 32-bit install. (Note that the ugrad machines should work, but testing on an Ubuntu 18.04-derived system or virtual machine is recommended since it matches what the autograder will be using.)
+
+You’ll use the standard [gcc](http://en.wikipedia.org/wiki/GNU_Compiler_Collection)/[gas](http://en.wikipedia.org/wiki/GNU_Assembler) toolchain and you **must** use AT&T syntax, **not** Intel syntax.
+
+Note that for *all* problems the *full* x86\_64 conventions regarding
+register usage (arguments, results, caller-saved vs. callee-saved, etc.)
+are in effect\! (Of course regular calls differ from system calls in
+this regard.)
+
+
 **Acknowledgment:** The idea for this assignment comes from the [Fall 2018 HW5](https://www.cs.jhu.edu/~phf/2018/fall/cs229/simple-x86_64.html) developed by Peter Froehlich.
 
 ## Submission Part 1
