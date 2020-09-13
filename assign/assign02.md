@@ -4,10 +4,10 @@ title: "Assignment 2: Hex dump"
 ---
 
 *Preliminary assignment description, not official!*
-**Out on:** Wednesday, September 16, 2020
-**Part 1 Due:** Wednesday, September 23, 2020 @ 11pm
-**Part 2 Due:** Tuesday, September 28, 2020 @ 11pm
-**Collaboration:** None
+* **Out on:** Wednesday, September 16, 2020
+* **Part 1 Due:** Wednesday, September 23, 2020 @ 11pm
+* **Part 2 Due:** Tuesday, September 28, 2020 @ 11pm
+* **Collaboration:** None
 
 # Overview
 
@@ -24,7 +24,7 @@ are in effect\! (Of course regular calls differ from system calls in
 this regard.)
 
 
-**Acknowledgment:** The idea for this assignment comes from the [Fall 2018 HW5](https://www.cs.jhu.edu/~phf/2018/fall/cs229/simple-x86_64.html) developed by Peter Froehlich.
+**Acknowledgment:** The idea for this assignment comes from the [Fall 2018 HW5](https://www.cs.jhu.edu/~phf/2018/fall/cs229/simple-x86_64.html) developed by Peter Frohlich.
 
 
 ## Submission Part 1
@@ -42,15 +42,15 @@ The rest of the Assembly language functions must be written with thorough unit t
 **Part 1** (30 points)
 
 > C implementation - 10%
-> 
+>
 > Assembly implementation - 20%
 
 **Part 2** (70 points)
 
 > Assembly implementation - 35%
-> 
+>
 > Unit tests - 20%
-> 
+>
 > Packing, style, and design - 15%
 
 
@@ -464,7 +464,7 @@ printStr:
 Note that this function uses the `strLen` function.
 
 ## Assignment tips
-For this assignment, you should start by writing the C language implementations first. Be sure to write unit tests and check your work along the way. 
+For this assignment, you should start by writing the C language implementations first. Be sure to write unit tests and check your work along the way.
 
 After writing your C functions, start thinking about how you can translate your implementation into assembly. Be sure to consider register usage and be aware of pushing/popping the stack.
 
