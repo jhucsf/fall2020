@@ -26,10 +26,6 @@ this regard.)
 
 **Acknowledgment:** The idea for this assignment comes from the [Fall 2018 HW5](https://www.cs.jhu.edu/~phf/2018/fall/cs229/simple-x86_64.html) developed by Peter Froehlich.
 
-This assignment is **all** about hacking **native** [x86\_64](https://en.wikipedia.org/wiki/X86-64) assembly code. For obvious reasons, **you’ll need a *64-bit* Lubuntu 18.04 LTS reference system;** you cannot do this assignment on a 32-bit install.(Note that the ugrad machines should work, but testing on an Ubuntu 18.04-derived system or virtual machine is recommended since it matches what the autograder will be using.)
-
-This is a challenging assignment. Don’t wait until the last minute to start it! As usual, ask questions using Piazza, come to office hours, etc.
-
 
 ## Submission Part 1
 **Due date 1:** Wednesday, September 23, 2020 @ 11pm
@@ -45,17 +41,17 @@ The rest of the Assembly language functions must be written with thorough unit t
 ## Grading breakdown
 **Part 1** (30 points)
 
-C implementation - 10%
-
-Assembly implementation - 20%
+> C implementation - 10%
+> 
+> Assembly implementation - 20%
 
 **Part 2** (70 points)
 
-Assembly implementation - 35%
-
-Unit tests - 20%
-
-Packing, style, and design - 15%
+> Assembly implementation - 35%
+> 
+> Unit tests - 20%
+> 
+> Packing, style, and design - 15%
 
 
 ## Getting started
