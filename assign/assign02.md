@@ -74,9 +74,9 @@ hexdumps are. For this assignment, you will write a program in C and x86-64 asse
 Let’s start with an example:
 
 ```
-    $ ./hex
-    Hello
-    00000000: 48 65 6c 6c 6f 0a                                Hello.
+$ ./hex
+Hello
+00000000: 48 65 6c 6c 6f 0a                                Hello.
 ```
 
 The program was started, then the user typed the word “Hello” followed
@@ -88,13 +88,13 @@ look a bit strange, but the purpose of the “large gap” becomes apparent
 if we examine a longer input:
 
 ```
-    $ ./hex
-    This is a longer example of a hexdump. Marvel at its magnificence.
-    00000000: 54 68 69 73 20 69 73 20 61 20 6c 6f 6e 67 65 72  This is a longer
-    00000010: 20 65 78 61 6d 70 6c 65 20 6f 66 20 61 20 68 65   example of a he
-    00000020: 78 64 75 6d 70 2e 20 4d 61 72 76 65 6c 20 61 74  xdump. Marvel at
-    00000030: 20 69 74 73 20 6d 61 67 6e 69 66 69 63 65 6e 63   its magnificenc
-    00000040: 65 2e 0a                                         e..
+$ ./hex
+This is a longer example of a hexdump. Marvel at its magnificence.
+00000000: 54 68 69 73 20 69 73 20 61 20 6c 6f 6e 67 65 72  This is a longer
+00000010: 20 65 78 61 6d 70 6c 65 20 6f 66 20 61 20 68 65   example of a he
+00000020: 78 64 75 6d 70 2e 20 4d 61 72 76 65 6c 20 61 74  xdump. Marvel at
+00000030: 20 69 74 73 20 6d 61 67 6e 69 66 69 63 65 6e 63   its magnificenc
+00000040: 65 2e 0a                                         e..
 ```
 
 This time the user entered two sentences, then signaled end of input
@@ -244,13 +244,13 @@ here it is: [hexTest.c](hw5/hexTest.c)
 In addition to unit testing individual functions, you should test the program as a whole. In general, for any input file (text, binary, etc.), the command
 
 ```
-    ./hex < inputfile
+./hex < inputfile
 ```
 
 should produce exactly the same output as
 
 ```
-    xxd -g 1 < inputfile
+xxd -g 1 < inputfile
 ```
 
 We encourage you to test your program with a variety of inputs, including (but not limited to):
