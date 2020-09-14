@@ -10,6 +10,8 @@ category: "syllabus"
   <b>Fall, 2020 (3 credits, E)</b><br>
 </div>
 
+*Revised 9/14/2020 — late days policy has been updated, CA list updated*
+
 ## Instructor
 
 [David Hovemeyer](https://www.cs.jhu.edu/~daveho)
@@ -35,6 +37,7 @@ CAs:
 * Ryan    Rubel [rrubel1@jhu.edu](mailto:rrubel1@jhu.edu)
 * Simon    Allocca [sallocc1@jh.edu](mailto:sallocc1@jh.edu)
 * Yunxiao (Gary)    Yang [yyang117@jhu.edu](mailto:yyang117@jhu.edu)
+* Shravan Venkatesan [svenka16@jhu.edu](mailto:svenka16@jhu.edu)
 
 ## Meeting
 
@@ -124,7 +127,7 @@ Your course grade will be determined as follows:
 * Exams: 40% (4 exams, each worth 10%)
 * Activities/quizzes: 5%
 
-You have a total of 5 late days to use as needed for homework assignments throughout the course. Each 24 hour period following an assignment deadline is considered to be one late day: for example, if an assignment is due at 11pm on Friday, but you submit your assignment at 11:30pm on Friday, you have used one late day. If you are planning on using more than two late days on an assignment, please send a private message to the instructors on Piazza to let us know. Assignment submissions which exceed the maximum number of late days will (generally) not be considered for credit.  Having said that, we understand that exceptional circumstances can arise.  If you are in a situation where you think you may need additional late days, please notify your instructor.
+You have a total of 7 late days to use as needed for homework assignments throughout the course, with the caveat that you may use at most 5 late days on any single assignment. Each 24 hour period following an assignment deadline is considered to be one late day: for example, if an assignment is due at 11pm on Friday, but you submit your assignment at 11:30pm on Friday, you have used one late day. If you are planning on using more than two late days on an assignment, please send a private message to the instructors on Piazza to let us know. Assignment submissions which exceed the maximum number of late days will (generally) not be considered for credit.  Having said that, we understand that exceptional circumstances can arise.  If you are in a situation where you think you may need additional late days, please notify your instructor.
 
 ## Key Dates
 
