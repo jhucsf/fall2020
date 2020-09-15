@@ -19,6 +19,7 @@ Use the links above to navigate the site.  The [Syllabus](syllabus.html) describ
 
 ## News
 
+* **Sep 15** — [Assignment 2](assign/assign02.html) has been posted. There are two milestones, due **Wednesday, September 23rd** by 11pm and **Tuesday, September 29th** by 11pm, respectively.
 * **Sep 14** — The [Syllabus](syllabus.html) has been updated; we have increased the total number of late days from 5 to 7 (but note that you can't use more than 5 late days on any single assignment.)
 * **Sep 9** — The due date for [Assignment 1](assign/assign01.html) has been changed to **Tuesday, September 15th** by 11pm.
 * **Aug 31** — [Assignment 1](assign/assign01.html) is due **Monday, September 14th** by 11pm.

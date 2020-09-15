@@ -3,10 +3,9 @@ layout: default
 title: "Assignment 2: Hex dump"
 ---
 
-*Preliminary assignment description, not official!*
 * **Out on:** Tuesday, September 15, 2020
 * **Part 1 Due:** Wednesday, September 23, 2020 @ 11pm
-* **Part 2 Due:** Tuesday, September 28, 2020 @ 11pm
+* **Part 2 Due:** Tuesday, September 29, 2020 @ 11pm
 * **Collaboration:** None
 
 # Overview
@@ -34,7 +33,7 @@ this regard.)
 For this submission, all C language function implementations must be working with unit tests written. In addition, _at least_ the Assembly language functions of `hex_to_printable` and `hex_format_byte_as_hex` must be working with unit tests written.
 
 ## Submission Part 2
-**Due date 2:** Tuesday, September 28, 2020 @ 11pm
+**Due date 2:** Tuesday, September 29, 2020 @ 11pm
 
 The rest of the Assembly language functions must be written with thorough unit tests. Uploads for this submission should include the C implementation and unit tests submitted for part 1 as well.
 
@@ -504,6 +503,7 @@ Archive:  solution.zip
 Upload this zipfile to Gradescope for both parts 1 and 2 of Assignment 2.
 Make sure to include your name and email address in *every* file you turn in (well, in every file for which it makes sense to do so anyway!)
 
+<!--
 # Grading
 
 For reference, here is a short explanation of the grading criteria; some
@@ -541,3 +541,4 @@ be built using `make` we will take off 10%. If `valgrind` detects memory
 errors in your programs, we will take off 10%. If your programs fail
 miserably even once, i.e. terminate with an exception of any kind or
 dump core, we will take off 10% (for each such case).**
+-->
