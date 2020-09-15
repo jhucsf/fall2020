@@ -4,7 +4,7 @@ title: "Assignment 2: Hex dump"
 ---
 
 *Preliminary assignment description, not official!*
-* **Out on:** Wednesday, September 16, 2020
+* **Out on:** Tuesday, September 15, 2020
 * **Part 1 Due:** Wednesday, September 23, 2020 @ 11pm
 * **Part 2 Due:** Tuesday, September 28, 2020 @ 11pm
 * **Collaboration:** None
@@ -13,16 +13,17 @@ title: "Assignment 2: Hex dump"
 
 In this assignment you will implement a hex dump program using both C and assembly language. The submission of this assignment will be broken up to two parts as listed below.
 
+<!--
 The assembly portion of this assignment is **all** about hacking **native** [x86\_64](https://en.wikipedia.org/wiki/X86-64) assembly code. For obvious reasons, **you’ll need a *64-bit* Lubuntu 18.04 LTS reference
 system;** you cannot do this assignment on a 32-bit install. (Note that the ugrad machines should work, but testing on an Ubuntu 18.04-derived system or virtual machine is recommended since it matches what the autograder will be using.)
 
 You’ll use the standard [gcc](http://en.wikipedia.org/wiki/GNU_Compiler_Collection)/[gas](http://en.wikipedia.org/wiki/GNU_Assembler) toolchain and you **must** use AT&T syntax, **not** Intel syntax.
+-->
 
 Note that for *all* problems the *full* x86\_64 conventions regarding
 register usage (arguments, results, caller-saved vs. callee-saved, etc.)
 are in effect\! (Of course regular calls differ from system calls in
 this regard.)
-
 
 **Acknowledgment:** The idea for this assignment comes from the [Fall 2018 HW5](https://www.cs.jhu.edu/~phf/2018/fall/cs229/simple-x86_64.html) developed by Peter Frohlich.
 
@@ -173,9 +174,11 @@ function at a time, and test them to ensure correct operation.
 *Using this approach will make developing the `hex` program vastly
 easier.*
 
+<!--
 Here is a concrete example.  A useful function for the hexdump
 program is one that converts a byte value to a two-digit hex number.
-In assembly language, we could define this function like this:
+In assembly language, we could define this function like this
+(in the `asm_hexfuncs.S` source file):
 
 ```
 /*
@@ -191,9 +194,9 @@ byteToHex:
 	/* code would go here... */
 ```
 
-To unit test this function, we make several changes to `hexTest.c`.
-First, we add a function prototype (right below the one for the
-example `addLongs` function):
+To unit test this function, we make several changes to `hextests.c`.
+First, we add a function prototype (e.g., just below the prototype for
+the `textHexToPrintable` function):
 
 ```c
 void byteToHex(long val, char *s);
@@ -227,17 +230,18 @@ void testByteToHex(TestObjs *objs) {
 ```
 
 Assuming that the `byteToHex` function was implemented correctly, when
-we compile and run `hexTest`, we should see the following output:
+we compile and run `hextests`, we should see the following output
+as part of the test results output:
 
 ```
-testAddLongs...passed!
 testByteToHex...passed!
-All tests passed!
 ```
+-->
 
+<!--
 If you'd like to see the entire `hexTest.c` with the test for `byteToHex`,
 here it is: [hexTest.c](hw5/hexTest.c)
-
+-->
 
 ## Program-level testing
 
@@ -309,6 +313,7 @@ movq $sHexDigits, %r10
 
 would put the address that `sHexDigits` refers to in `%r10`.
 
+<!--
 If you want to load or store the *data* in a variable named by a
 label, then do *not* prefix it with `$`.  For example, if you want
 to load the value of the (64 bit) variable `bCount` into `%rdi`,
@@ -317,6 +322,7 @@ use the instruction
 ```
 movq bCount, %rdi
 ```
+-->
 
 When calling a function, the stack pointer (`%rsp`) must contain an address
 which is a multiple of 16.  However, because the `callq` instruction
@@ -432,6 +438,7 @@ ASSERT(0L == strLen(""));
 ASSERT(8L == strLen("00000010"));
 ```
 
+<!--
 Here is a function that writes a NUL-terminated character string
 to standard output:
 
@@ -462,6 +469,7 @@ printStr:
 ```
 
 Note that this function uses the `strLen` function.
+-->
 
 ## Assignment tips
 For this assignment, you should start by writing the C language implementations first. Be sure to write unit tests and check your work along the way.
