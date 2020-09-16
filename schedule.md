@@ -21,7 +21,7 @@ Sep 7              | *Holiday, no class*
 Sep 9              | Integer arithmetic: [slides](lectures/lecture04-public.pdf) | 2.3 |
 Sep 11             | Floating point: [slides](lectures/lecture05-public.pdf) | 2.4 |
 Sep 14             | Machine-level program representation: [slides](lectures/lecture06-public.pdf) | 3.1–3.4
-Sep 16             | ALU operations, arithmetic: [slides](lectures/lecture07-public.pdf) | 3.5
+Sep 16             | ALU operations, arithmetic: [slides](lectures/lecture07-public.pdf), [alu.zip (example code)](lectures/alu.zip) | 3.5
 Sep 18             | Control flow: [slides](lectures/lecture08-public.pdf) | 3.6 |
 Sep 21             | Procedures, stacks: [slides](lectures/lecture09-public.pdf) | 3.7
 Sep 23             | Review session, **Exam 1** (take-home)
