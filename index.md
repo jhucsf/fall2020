@@ -19,6 +19,7 @@ Use the links above to navigate the site.  The [Syllabus](syllabus.html) describ
 
 ## News
 
+* **Sep 16** — The due dates for the [Assignment 2](assign/assign02.html) milestones have been moved back to **Tuesday, September 29th** and **Tuesday, October 6th**, so that they don't coincide with Exam 1.
 * **Sep 16** — Exam 1 will be released (as a take-home exam) on **Wednesday, September 23rd**.  A practice exam is available on the [Resources](resources.html) page.
 * **Sep 15** — [Assignment 2](assign/assign02.html) has been posted. There are two milestones, due **Wednesday, September 23rd** by 11pm and **Tuesday, September 29th** by 11pm, respectively.
 * **Sep 14** — The [Syllabus](syllabus.html) has been updated; we have increased the total number of late days from 5 to 7 (but note that you can't use more than 5 late days on any single assignment.)

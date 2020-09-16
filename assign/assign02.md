@@ -4,8 +4,8 @@ title: "Assignment 2: Hex dump"
 ---
 
 * **Out on:** Tuesday, September 15, 2020
-* **Part 1 Due:** Wednesday, September 23, 2020 @ 11pm
-* **Part 2 Due:** Tuesday, September 29, 2020 @ 11pm
+* **Part 1 Due:** Tuesday, September 29, 2020 @ 11pm
+* **Part 2 Due:** Tuesday, October 6, 2020 @ 11pm
 * **Collaboration:** None
 
 # Overview
