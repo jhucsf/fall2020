@@ -21,4 +21,4 @@ Please read the [style guidelines](assign/style.html) so that you know what our 
 Assignment | Due
 ---------- | ---
 [Assignment 1: Arbitrary-precision arithmetic](assign/assign01.html) | Tuesday, September 15th by 11pm
-[Assignment 2: Hex dump](assign/assign02.html) | Milestone 1: Wednesday, September 23rd by 11pm<br>Milestone 2: Tuesday, September 28th by 11pm
+[Assignment 2: Hex dump](assign/assign02.html) | Milestone 1: Wednesday, September 23rd by 11pm<br>Milestone 2: Tuesday, September 29th by 11pm
