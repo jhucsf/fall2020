@@ -32,7 +32,7 @@ Oct 2              | Program optimization (basic techniques): see Piazza for sli
 Oct 5              | Pipelines: [slides](lectures/lecture13-public.pdf) | Patterson&amp;Hennessy 4.5–4.7
 Oct 7              | Program optimization (ILP, memory, profiling): see Piazza for slides | 5.9–5.14
 Oct 9              | Memory hierarchy: [slides](lectures/lecture15-public.pdf) | 6.1–6.3 | 
-Oct 12             | Caches policies: [slides](lectures/lecture16-public.pdf) | 6.4
+Oct 12             | Cache policies: [slides](lectures/lecture16-public.pdf) | 6.4
 Oct 14             | Caches and program execution: see Piazza for slides | 6.5 |
 Oct 16             | Review session, **Exam 2** (take-home)
 Oct 19             | Linking basics, symbols, relocations, executables, loading: slides | 7.1–7.9 |
@@ -55,5 +55,5 @@ Nov 30             | Thread synchronization: slides | 12.4–12.5
 Dec 2              | Concurrency with I/O multiplexing: slides | 12.2 |
 Dec 4              | Parallelism, concurrency issues: slides | 12.6–12.7 |
 Dec 7              |
-Dec 9              |
+Dec 9              | Final exam review session
 TBD                | **Exam 4** (take-home, during final exam period)
