@@ -22,20 +22,20 @@ Sep 9              | Integer arithmetic: [slides](lectures/lecture04-public.pdf)
 Sep 11             | Floating point: [slides](lectures/lecture05-public.pdf) | 2.4 |
 Sep 14             | Machine-level program representation: [slides](lectures/lecture06-public.pdf) | 3.1–3.4
 Sep 16             | ALU operations, arithmetic: [slides](lectures/lecture07-public.pdf), [alu.zip (example code)](lectures/alu.zip) | 3.5
-Sep 18             | Control flow: [slides](lectures/lecture08-public.pdf) | 3.6 |
-Sep 21             | Procedures, stacks: [slides](lectures/lecture09-public.pdf) | 3.7
+Sep 18             | Control flow: [slides](lectures/lecture08-public.pdf), [control.zip (example code)](lectures/control.zip) | 3.6 |
+Sep 21             | Procedures, stacks: [slides](lectures/lecture09-public.pdf), [control2.zip (example code)](lectures/control2.zip) | 3.7
 Sep 23             | Review session, **Exam 1** (take-home)
 Sep 25             | Assembly language in class exercise
-Sep 28             | Arrays and structs: slides | 3.8–3.9
-Sep 30             | Code and data interactions, buffer overflows: slides  | 3.10
+Sep 28             | Arrays and structs: [slides](lectures/lecture10-public.pdf), [arraystruct.zip (example code)](lectures/arraystruct.zip) | 3.8–3.9
+Sep 30             | Code and data interactions, buffer overflows: [slides](lectures/lecture11-public.pdf), [buf.zip (example code)](lectures/buf.zip) | 3.10
 Oct 2              | Program optimization (basic techniques): see Piazza for slides | 5.1–5.8 |
-Oct 5              | Pipelines: slides | Patterson&amp;Hennessy 4.5–4.7
+Oct 5              | Pipelines: [slides](lectures/lecture13-public.pdf) | Patterson&amp;Hennessy 4.5–4.7
 Oct 7              | Program optimization (ILP, memory, profiling): see Piazza for slides | 5.9–5.14
-Oct 9              | Memory hierarchy: slides | 6.1–6.3 | 
-Oct 12             | Caches: slides | 6.4
+Oct 9              | Memory hierarchy: [slides](lectures/lecture15-public.pdf) | 6.1–6.3 | 
+Oct 12             | Caches policies: [slides](lectures/lecture16-public.pdf) | 6.4
 Oct 14             | Caches and program execution: see Piazza for slides | 6.5 |
 Oct 16             | Review session, **Exam 2** (take-home)
-Oct 18             | Linking basics, symbols, relocations, executables, loading: slides | 7.1–7.9 |
+Oct 19             | Linking basics, symbols, relocations, executables, loading: slides | 7.1–7.9 |
 Oct 21             | Dynamic linking, shared libraries, PIC, interpositioning: slides | 7.10–7.15 |
 Oct 23             | *Fall break, no class*
 Oct 26             | Exceptions, Processes: slides | 8.1–8.4, 8.7
