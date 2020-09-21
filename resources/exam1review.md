@@ -8,6 +8,8 @@ category: "resources"
 
 These questions are designed to aid your review of the material covered by the first exam. They are not representative of the difficulty, type, or length of the questions on the exam.
 
+In all questions, assume signed integers use two's complement representation.
+
 ## Q1. Number Representation
 <ol type="a">
   <li>
@@ -27,7 +29,7 @@ These questions are designed to aid your review of the material covered by the f
   </li>
   <li>
 
-  Show how to calculate <code>1.250 + 3.375</code> and <code>1.250 * 3.375</code>.
+  Show how to calculate <code>1.250 + 3.375</code> and <code>1.250 * 3.375</code> using floating point.
 
   </li>
   <li>
@@ -41,17 +43,17 @@ These questions are designed to aid your review of the material covered by the f
 <ol type="a">
   <li>
 
-  Write the results of arithmetic and logical executions of <code>-113 >> 1</code>.
+  Write the results of arithmetic and logical executions of <code>-113 >> 1</code>, where <code>-113</code> is an 8 bit value.
 
   </li>
   <li>
 
-  What is the fastest way to compute <code>16 * 13</code>?
+  What is the fastest way to compute <code>16 * 13</code>? (Hint: don't use multiplication.)
 
   </li>
   <li>
 
-  Determine <code>43 | 13</code>, <code>43 & 13</code>, <code>43 ^ 13</code>, and <code>~43</code> (base 8).
+  Determine <code>43 | 13</code>, <code>43 & 13</code>, <code>43 ^ 13</code>, and <code>~43</code> (assume operands are unsigned 8 bit.)
 
   </li>
 </ol>
@@ -83,7 +85,7 @@ These questions are designed to aid your review of the material covered by the f
   </li>
   <li>
 
-  In AT&T syntax, what is the order of arguments for these functions, and where are the results stored?
+  In AT&T syntax, what is the order of arguments for these instructions, and where are the results stored?
 
   <ul>
   <li><code>addq %r9, %r10</code></li>
