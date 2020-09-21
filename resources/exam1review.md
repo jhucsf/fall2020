@@ -6,7 +6,7 @@ category: "resources"
 
 # Exam 1 Practice Questions
 
-These questions are designed to aid your review of the material covered by the first exam. They is not representative of the difficulty, type, or length of the questions on the exam.
+These questions are designed to aid your review of the material covered by the first exam. They are not representative of the difficulty, type, or length of the questions on the exam.
 
 ## Q1. Number Representation
 <ol type="a">
