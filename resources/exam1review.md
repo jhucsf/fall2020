@@ -76,8 +76,8 @@ These questions are designed to aid your review of the material covered by the f
   </li>
   <li>
 
-  Write a local loop and the line which calls it in `main` that sums all the values from 0-9, given
-  
+  Write a local loop, and the line which calls it in `main`, that sums all the values from 0-9, given
+
   `#define N 9`
 
   </li>
