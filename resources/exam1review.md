@@ -41,7 +41,7 @@ These questions are designed to aid your review of the material covered by the f
 <ol type="a">
   <li>
 
-  Write the arithmetic and logical implementations of <code>-113 >> 1</code>.
+  Write the results of arithmetic and logical executions of <code>-113 >> 1</code>.
 
   </li>
   <li>
