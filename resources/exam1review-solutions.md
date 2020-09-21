@@ -37,7 +37,7 @@ In all questions, assume signed integers use two's complement representation.
       <br>
     <code>43<sub>10</sub> = 101011<sub>2</sub></code>
 
-    <br>
+    <br><br>
   </li>
   <li>
 
@@ -47,7 +47,7 @@ In all questions, assume signed integers use two's complement representation.
     <code>208 + 53 = 5</code>: Due to the 8th bit overflowing, <code>00000101</code> remains
       <br>
     <code> 103 + (-24) = 79</code>: From <code>01100111 + 11101000</code>
-      <br>
+      <br><br>
   </li>
   <li>
 
@@ -60,14 +60,14 @@ In all questions, assume signed integers use two's complement representation.
     8-bit system: <code>5<sub>10</sub> = 1011</code>
       <br>
     <code>-5<sub>10</sub> = -128<sub>10</sub> + 123<sub>10</sub> = 10000000<sub>2</sub> + 01111011<sub>2</sub></code>
-      <br>
+      <br><br>
   </li>
   <li>
 
     <i>Show how to calculate <code>1.250 + 3.375</code> and <code>1.250 * 3.375</code> using floating point.</i>
       <br>
     TODO
-      <br>
+      <br><br>
   </li>
   <li>
 
@@ -85,7 +85,7 @@ In all questions, assume signed integers use two's complement representation.
         <th>23</th>
       </tr>
     </table>
-      <br>
+      <br><br>
   </li>
 </ol>
 
@@ -100,15 +100,15 @@ In all questions, assume signed integers use two's complement representation.
     An arithmetic shift results in <code>11000111<sub>2</sub> = -57<sub>10</sub></code>, preserving the sign bit.
       <br>
     A logical shift results in <code>01000111</code>, treating the sign bit as any other bit.
-      <br>
-    </li>
+      <br><br>
+  </li>
   <li>
 
     <i>What is the fastest way to compute <code>16 * 13</code>? (Hint: don't use multiplication.)</i>
       <br><br>
     <code>16 * 13</code> can be found by <code>13 << 4</code>
 
-    <br>
+    <br><br>
   </li>
   <li>
 
@@ -126,7 +126,7 @@ In all questions, assume signed integers use two's complement representation.
       <br>
     <code>~43<sub>10</sub> = 11010100<sub>2</sub></code>
 
-      <br>
+      <br><br>
   </li>
 </ol>
 
@@ -143,7 +143,7 @@ In all questions, assume signed integers use two's complement representation.
     The assembler step converts .s assembly to .o machine code (machine instructions, binary numbers representing the instruction the CPU should execute)
     <br>
     The linking step combines all .o files into an executable
-      <br>
+      <br><br>
   </li>
 
   <li>
@@ -151,14 +151,14 @@ In all questions, assume signed integers use two's complement representation.
     <i>How, why, and when do you align the stack pointer?</i>
 
     TODO
-      <br>
+      <br><br>
   </li>
   <li>
 
     <i>What are caller and callee saved registers?</i>
 
     TODO
-      <br>
+      <br><br>
   </li>
   <li>
 
@@ -167,7 +167,7 @@ In all questions, assume signed integers use two's complement representation.
     <code>#define N 9</code></i>
 
     TODO
-      <br>
+      <br><br>
   </li>
   <li>
 
@@ -183,7 +183,7 @@ In all questions, assume signed integers use two's complement representation.
     </ul></i>
 
     TODO
-      <br>
+      <br><br>
   </li>
 </ol>
 
