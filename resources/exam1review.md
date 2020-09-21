@@ -17,17 +17,17 @@ These questions are designed to aid your review of the material covered by the f
   </li>
   <li>
 
-  On an 8-bit computer, what is the sum of unsigned `208 + 53`, and what is the difference of signed `103 - 24`?
+  On an 8-bit computer, what is the sum of unsigned <code>208 + 53</code>?, and what is the difference of signed <code>103 - 24</code>?
 
   </li>
   <li>
 
-  Write what `-5` would be on a 4-bit and an 8-bit system.
+  Write what <code>-5</code> would be on a 4-bit and an 8-bit system.
 
   </li>
   <li>
 
-  Show how to calculate `1.250 + 3.375` and `1.250 * 3.375`.
+  Show how to calculate <code>1.250 + 3.375</code> and <code>1.250 * 3.375</code>.
 
   </li>
   <li>
@@ -41,17 +41,17 @@ These questions are designed to aid your review of the material covered by the f
 <ol type="a">
   <li>
 
-  Write the arithmetic and logical implementations of `-113 >> 1`.
+  Write the arithmetic and logical implementations of <code>-113 >> 1</code>.
 
   </li>
   <li>
 
-  What is the fastest way to compute `16 * 13`?
+  What is the fastest way to compute <code>16 * 13</code>?
 
   </li>
   <li>
 
-  Determine `43 | 13`, `43 & 13`, `43 ^ 13`, and `~43` (base 8).
+  Determine <code>43 | 13</code>, <code>43 & 13</code>, <code>43 ^ 13</code>, and <code>~43</code> (base 8).
 
   </li>
 </ol>
@@ -76,30 +76,35 @@ These questions are designed to aid your review of the material covered by the f
   </li>
   <li>
 
-  Write a local loop, and the line which calls it in `main`, that sums all the values from 0-9, given
+  Write a local loop, and the line which calls it in <code>main</code>, that sums all the values from 0-9, given
 
-  `#define N 9`
+  <code>#define N 9</code>
 
   </li>
   <li>
 
   In AT&T syntax, what is the order of arguments for these functions, and where are the results stored?
-  * `addq %r9, %r10`
-  * `movl $FFFF0000, %esi`
-  * `cmpl %eax, %eax`
 
+  <ul>
+  <li><code>addq %r9, %r10</code></li>
+
+  <li><code>movl $FFFF0000, %esi</code></li>
+
+  <li><code>cmpl %eax, %eax</code>
+  </li>
+  </ul>
   </li>
 </ol>
 
 ## Q4. x86-64 Assembly Programming
 
-Write an x86-64 assembly language function called `swapInts` which swaps the values of two `int` variables. The C function declaration for this function would be
+Write an x86-64 assembly language function called <code>swapInts</code> which swaps the values of two <code>int</code> variables. The C function declaration for this function would be
 
-`void swapInts(int *a, int *b);`
+<code>void swapInts(int *a, int *b);</code>
 
 Hints:
 * Think about which registers the parameters will be passed in
 * Think about what register(s) would be appropriate to use for temporary value(s)
-* Consider that `int` variables are 4 bytes (32 bits), and use an appropriate operand size suffix.
+* Consider that <code>int</code> variables are 4 bytes (32 bits), and use an appropriate operand size suffix.
 
 **Important:** Your function should follow proper x86-64 Linux register use conventions. Be sure to include the label defining the name of the function.
