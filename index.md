@@ -19,7 +19,7 @@ Use the links above to navigate the site.  The [Syllabus](syllabus.html) describ
 
 ## News
 
-* **Sep 21** — [Review questions for exam 1](resources/exam1review.html) are available.
+* **Sep 21** — [Review questions for exam 1](resources/exam1review.html) are available. Also note that the [x86-64 mini exercises](exercise/assemblyMini.html) may be helpful.
 * **Sep 18** — The [Schedule](schedule.html) has been updated.
 * **Sep 16** — The due dates for the [Assignment 2](assign/assign02.html) milestones have been moved back to **Tuesday, September 29th** and **Tuesday, October 6th**, so that they don't coincide with Exam 1.
 * **Sep 16** — Exam 1 will be released (as a take-home exam) on **Wednesday, September 23rd**.  A practice exam is available on the [Resources](resources.html) page.
