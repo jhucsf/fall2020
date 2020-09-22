@@ -215,7 +215,7 @@ main:
 
         movq $sResultMsg, %rdi /* printf format arg */
         movq %r11, %rsi     /* value to be printed */
-        call printf         /* print resul;t message */
+        call printf         /* print result message */
 
         movl $0, %eax       /* return 0 from main */
         addq $8, %rsp       /* restore stack pointer */
