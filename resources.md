@@ -24,7 +24,7 @@ This section has links to some information resources you might find useful.
 
 This section links to exercises, practice problems, and similar resources.
 
-* [Exam 1 practice questions](resources/exam1review.html)
+* [Exam 1 practice questions](resources/exam1review.html), [Answers](resources/exam1review-solutions.html)
 * [Assembly language exercise](exercise/assembly.html), [solution](exercise/asmExerciseSoln.zip)
 * [Assembly language exercise 2 (more challenging)](exercise/assembly2.html)
 * [Assembly language mini-exercises](exercise/assemblyMini.html)
