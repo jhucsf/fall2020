@@ -188,28 +188,62 @@ In all questions, assume signed integers use two's complement representation.
   </li>
   <li>
 
-    <i>Write a local loop, and the line which calls it in <code>main</code>, that sums all the values from 0-9, given
+  <i>Write a local loop, and the line which calls it in <code>main</code>, that sums all the values from 0-9, given
+  <code>#define N 9</code></i>
 
-    <code>#define N 9</code></i>
+  <p><b>Answer:</b></p>
 
-    TODO
-      <br><br>
+<pre>
+&#35;define N 9
+
+        .section .rodata
+sResultMsg: .string "Sum is %ld\n"
+
+        .section .text
+
+        .globl main
+main:
+        subq $8, %rsp       /* align stack */
+
+        movq $0, %r10       /* counter */
+        movq $0, %r11       /* sum */
+.Ltop:
+        addq %r10, %r11     /* add current counter value to sum */
+        incq %r10           /* increment counter */
+        cmpq $N, %r10       /* is %r10 <= N? */
+        jle .Ltop           /* if so, continue */
+
+        movq $sResultMsg, %rdi /* printf format arg */
+        movq %r11, %rsi     /* value to be printed */
+        call printf         /* print resul;t message */
+
+        movl $0, %eax       /* return 0 from main */
+        addq $8, %rsp       /* restore stack pointer */
+        ret                 /* return from main */
+</pre>
+   <br><br>
   </li>
   <li>
 
-    <i>In AT&T syntax, what is the order of arguments for these instructions, and where are the results stored?
+   <i>In AT&T syntax, what is the order of arguments for these instructions, and where are the results stored?</i>
 
-    <ul>
-    <li><code>addq %r9, %r10</code></li>
+   <ul>
+   <li><i><code>addq %r9, %r10</code></i><br>
+   The sum of %r9 and %r10 is stored in %r10
+   </li>
 
-    <li><code>movl $FFFF0000, %esi</code></li>
+   <li><i><code>movl $0xFFFF0000, %esi</code></i><br>
+   The value 00000000FFFF0000 (hexadecimal) is stored in %rdi (%esi is the 32 bit sub register
+   of %rdi, and a 32-bit move into a 64-bit register clears the upper 32 bits)
+  </li>
 
-    <li><code>cmpl %eax, %eax</code>
-    </li>
-    </ul></i>
+   <li><i><code>cmpl %eax, %eax</code></i><br>
+   %eax (the low 32 bits of %rax) is compared to itself, but is not modified. Condition codes will be set
+   based on the result of the comparison.
+   </li>
+   </ul>
 
-    TODO
-      <br><br>
+   <br><br>
   </li>
 </ol>
 
