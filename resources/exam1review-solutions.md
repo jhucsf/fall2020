@@ -249,15 +249,33 @@ main:
 
 ## Q4. x86-64 Assembly Programming
 
-<i>Write an x86-64 assembly language function called <code>swapInts</code> which swaps the values of two <code>int</code> variables. The C function declaration for this function would be
+<div style="font-style: italic;">
+Write an x86-64 assembly language function called <code>swapInts</code> which swaps the values of two <code>int</code> variables. The C function declaration for this function would be
 
 <code>void swapInts(int *a, int *b);</code>
 
-Hints:
-* Think about which registers the parameters will be passed in
-* Think about what register(s) would be appropriate to use for temporary value(s)
-* Consider that <code>int</code> variables are 4 bytes (32 bits), and use an appropriate operand size suffix.
+<p>Hints:</p>
+<ul>
+<li> Think about which registers the parameters will be passed in</li>
+<li> Think about what register(s) would be appropriate to use for temporary value(s)</li>
+<li> Consider that <code>int</code> variables are 4 bytes (32 bits), and use an appropriate operand size suffix.</li>
+</ul>
 
-**Important:** Your function should follow proper x86-64 Linux register use conventions. Be sure to include the label defining the name of the function.</i>
+<b>Important:</b> Your function should follow proper x86-64 Linux register use conventions. Be sure to include the label defining the name of the function.
+</div>
 
-  TODO
+<b>Answer</b>:
+<pre>
+        .globl swapInts
+swapInts:
+        subq $8, %rsp       /* not strictly necessary, but good style nonetheless */
+
+        movl (%rdi), %r10d  /* get original value of *a */
+        movl (%rsi), %r11d  /* get original value of *b */
+        movl %r10d, (%rsi)  /* put original value of *a in *b */
+        movl %r11d, (%rdi)  /* put original value of *b in *a */
+
+        addq $8, %rsp       /* restore stack pointer */
+        ret
+</pre>
+
