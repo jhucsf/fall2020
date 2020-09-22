@@ -150,15 +150,41 @@ In all questions, assume signed integers use two's complement representation.
 
     <i>How, why, and when do you align the stack pointer?</i>
 
-    TODO
-      <br><br>
+      <br>
+   <p><b>How:</b> To align the stack pointer, <i>N</i> bytes must be subtracted
+   from %rsp, using some combination of the subq and pushq instructions.</p>
+   <p><b>Why:</b> %rsp must contain an address that is a multiple of 16 at the site
+    of any call instruction. Some functions, such as <code>printf</code>, use
+    special instructions to transfer data from the stack which require alignment on
+    a multiple of 16.</p>
+   <p><b>When:</b> On entry to a subroutine (a.k.a. function). Because the call instruction
+   pushes an 8 byte return address before transferring control to the called subroutine,
+   %rsp will contain an address which is a multiple of 8 but not a multiple of 16.</p>
+      <br>
   </li>
   <li>
 
     <i>What are caller and callee saved registers?</i>
 
-    TODO
-      <br><br>
+    <p><b>Caller-saved:</b> 
+     These are registers which may be freely modified by any function.
+     However, this means that when calling a function, the caller must assume
+     that the contents of any caller-saved register could have been modified.
+     If any caller-saved register needs to have its contents preserved across a
+     function call, it will need to be saved by the caller (perhaps by using pushq/popq.)
+     Hence, "caller-saved".
+     </p>
+
+    <p><b>Callee-saved:</b> 
+     These are registers which may be assumed <em>not</em> to change as a result
+     of calling a function.  This feature makes them especially useful as loop counters,
+     accumulators, etc.  This also means that any function which will modify a callee-saved
+     register will need to save its original value, and restore that value before returning.
+     This is usually done using a pushq instruction on entry to the procedure, and
+     popq just before returning from the procedure.
+     </p>
+
+      <br>
   </li>
   <li>
 
