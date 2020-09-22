@@ -19,6 +19,7 @@ Use the links above to navigate the site.  The [Syllabus](syllabus.html) describ
 
 ## News
 
+* **Sep 22** — [Solutions to the assembly language mini-exercises](exercise/asmMini-soln.zip) are available.
 * **Sep 22** — A [solution to the spring 2020 midterm](resources/midterm-spring2020-soln.pdf) is available.
 * **Sep 22** — [Answers to the exam 1 review questions](resources/exam1review-solutions.html) are available.
 * **Sep 21** — [Review questions for exam 1](resources/exam1review.html) are available. Also note that the [x86-64 mini exercises](exercise/assemblyMini.html) may be helpful.

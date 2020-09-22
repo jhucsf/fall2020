@@ -5,9 +5,11 @@ title: "Assembly language mini exercises"
 
 # Assembly language mini exercises
 
-This page has some suggested assembly language mini exercises.  We will be updating these with solutions.
+This page has some suggested assembly language mini exercises.
 
 Starter project containing `Makefile` and hello world example program: [asmMini.zip](asmMini.zip)
+
+Solutions: [asmMini-soln.zip](asmMini-soln.zip)
 
 ## Count to 10
 
