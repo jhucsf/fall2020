@@ -12,7 +12,7 @@ This section has links to some information resources you might find useful.
 
 ## Practice exams
 
-* [Midterm, Spring 2020](resources/midterm-spring2020.pdf)
+* [Midterm, Spring 2020](resources/midterm-spring2020.pdf), [Solution](resources/midterm-spring2020-soln.pdf)
 
 ## x86-64 assembly programming resources
 
