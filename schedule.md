@@ -25,7 +25,7 @@ Sep 16             | ALU operations, arithmetic: [slides](lectures/lecture07-pub
 Sep 18             | Control flow: [slides](lectures/lecture08-public.pdf), [control.zip (example code)](lectures/control.zip) | 3.6 |
 Sep 21             | Procedures, stacks: [slides](lectures/lecture09-public.pdf), [control2.zip (example code)](lectures/control2.zip) | 3.7
 Sep 23             | Review session, **Exam 1** (take-home)
-Sep 25             | Assembly language in class exercise
+Sep 25             | Assembly language in class exercise: [slides](lectures/assembly-public.pdf)
 Sep 28             | Arrays and structs: [slides](lectures/lecture10-public.pdf), [arraystruct.zip (example code)](lectures/arraystruct.zip) | 3.8–3.9
 Sep 30             | Code and data interactions, buffer overflows: [slides](lectures/lecture11-public.pdf), [buf.zip (example code)](lectures/buf.zip) | 3.10
 Oct 2              | Program optimization (basic techniques): see Piazza for slides | 5.1–5.8 |
