@@ -29,23 +29,24 @@ these traces. You’ll then use your programs and the given traces to
 determine the **best overall cache configuration**.
 
 ## Submission Part 1
-**Due date 1:** Tuesday, October 13 by 11pm
+**Due date 1:** Tuesday, October 13 by 11pm (10 points)
 
 For this submission, you must have started working on your code and have at least one submission uploaded to [Gradescope](https://www.gradescope.com).
 
 ## Submission Part 2
-**Due date 2:** Friday, October 16 by 11pm
+**Due date 2:** Friday, October 16 by 11pm (10 points)
 
-Code must be working for LRU.
+For this submission, you must have implemented your cache simulation for LRU.
 
 ## Submission Part 3
-**Due date 3:** Tuesday, October 20th by 11pm
+**Due date 3:** Tuesday, October 20th by 11pm (80 points)
+
 All functions must be written with full assignment specifications met.
 
 
 ## Grading criteria
 
-Your grade will be determined as follows:
+Milestone grades will be determined as a combination of effort and code functionality. For the final submission, your grade will be determined as follows:
 
 * Gracefully handling invalid parameters: 2%
 * Accurate load count: 8%
