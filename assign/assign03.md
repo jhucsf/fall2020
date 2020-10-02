@@ -3,7 +3,13 @@ layout: default
 title: "Assignment 3: Cache simulator"
 ---
 
-**Due**: Tuesday, October 20th by 11pm
+# This assignment is NOT finalized.
+
+**Due**:
+
+* *Milestone 1*: Tuesday, October 13 by 11pm
+* *Milestone 2*: Friday, October 16 by 11pm
+* *Final due date*: Tuesday, October 20th by 11pm
 
 **Collaboration**: Pairs
 
@@ -21,6 +27,21 @@ you a number of **memory traces** from real benchmark programs. You’ll
 implement a program to **simulate** how a variety of caches perform on
 these traces. You’ll then use your programs and the given traces to
 determine the **best overall cache configuration**.
+
+## Submission Part 1
+**Due date 1:** Tuesday, October 13 by 11pm
+
+For this submission, you must have started working on your code and have at least one submission uploaded to [Gradescope](https://www.gradescope.com).
+
+## Submission Part 2
+**Due date 2:** Friday, October 16 by 11pm
+
+Code must be working for LRU.
+
+## Submission Part 3
+**Due date 3:** Tuesday, October 20th by 11pm
+All functions must be written with full assignment specifications met.
+
 
 ## Grading criteria
 
