@@ -8,6 +8,8 @@ title: "Assignment 2: Hex dump"
 * **Part 2 Due:** Tuesday, October 6, 2020 @ 11pm
 * **Collaboration:** None
 
+*Update Oct 2*: added link to late day request form
+
 *Update Oct 2*: added assembly files to "Submitting" section
 
 *Update Oct 2*: link to improved [Makefile](assign02/Makefile)
@@ -42,6 +44,9 @@ For this submission, all C language function implementations must be working wit
 **Due date 2:** Tuesday, October 6, 2020 @ 11pm
 
 The rest of the Assembly language functions must be written with thorough unit tests. Uploads for this submission should include the C implementation and unit tests submitted for part 1 as well.
+
+## Late Days
+If you will be using more than 2 late days on this assignment, please submit a request at [this link.](https://docs.google.com/forms/d/e/1FAIpQLScmLGwgjnV8ZdYdO02X46DFqLXoqzixk-OMGpdUJ9G8HjzOYA/viewform)
 
 
 ## Grading breakdown
