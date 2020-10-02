@@ -19,6 +19,7 @@ Use the links above to navigate the site.  The [Syllabus](syllabus.html) describ
 
 ## News
 
+* **Oct 2** — An [improved Makefile](assign/assign02/Makefile) for [Assignment 2](assign/assign02.html) is available.
 * **Sep 22** — [Solutions to the assembly language mini-exercises](exercise/asmMini-soln.zip) are available.
 * **Sep 22** — A [solution to the spring 2020 midterm](resources/midterm-spring2020-soln.pdf) is available.
 * **Sep 22** — [Answers to the exam 1 review questions](resources/exam1review-solutions.html) are available.

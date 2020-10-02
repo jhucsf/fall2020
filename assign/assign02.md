@@ -8,6 +8,10 @@ title: "Assignment 2: Hex dump"
 * **Part 2 Due:** Tuesday, October 6, 2020 @ 11pm
 * **Collaboration:** None
 
+*Update Oct 2*: link to improved [Makefile](assign02/Makefile)
+
+*Update Sep 29*: clarified that helper functions may be called from `main`.
+
 # Overview
 
 In this assignment you will implement a hex dump program using both C and assembly language. The submission of this assignment will be broken up to two parts as listed below.
@@ -66,6 +70,11 @@ curl -O https://jhucsf.github.io/fall2020/assign/csf_assign02.zip
 
 Note that in the `-O` option, it is the letter "O", not the numeral "0".
 
+*Update 10/2*: The original Makefile doesn't have support for compiling
+an assembly language version of the hexdump program, and omits the `-g`
+flag to enable line-level debugging of assembly code.  Here is an improved
+version: [Makefile](assign02/Makefile). Please download and use it.
+
 # Hex dump
 
 Start by [reading up](http://en.wikipedia.org/wiki/Hex_dump) on what
@@ -74,7 +83,7 @@ hexdumps are. For this assignment, you will write a program in C and x86-64 asse
 Let’s start with an example:
 
 ```
-$ ./hex
+$ ./c_hexdump
 Hello
 00000000: 48 65 6c 6c 6f 0a                                Hello.
 ```
@@ -88,7 +97,7 @@ look a bit strange, but the purpose of the “large gap” becomes apparent
 if we examine a longer input:
 
 ```
-$ ./hex
+$ ./c_hexdump
 This is a longer example of a hexdump. Marvel at its magnificence.
 00000000: 54 68 69 73 20 69 73 20 61 20 6c 6f 6e 67 65 72  This is a longer
 00000010: 20 65 78 61 6d 70 6c 65 20 6f 66 20 61 20 68 65   example of a he
@@ -117,6 +126,18 @@ and the string-like representation.
 The behavior of your program should be identical to the command `xxd -g 1`. Take note of how the program will only print a row if it either has a full row of sixteen characters, or if CTRL-D is pressed.
 
 Note that because the purpose of this assignment is to give you an opportunity to learn how to write x86-64 assembly language code, there are some very important [non-functional requirements](#non-functional-requirements) that you will need to satisfy.  (Please read that section of the assignment description carefully.)
+
+**Important**: For testing the functional correctness of your hexdump programs, it
+is only important that it behave identically to `xxd -g 1` *when reading from
+a file*, using input redirection.  The examples above show the program
+reading from standard input, only as an illustration of the basic functionality.
+So, you will want to test your hexdump programs using a command like
+
+```
+./c_hexdump < myinput
+```
+
+where `myinput` is an input file you want to test.
 
 # Functional requirements
 
@@ -154,7 +175,7 @@ In both your C and assembly language implementations, you are required to implem
 
 In `c_hexmain.c` and `asm_hexmain.S`, you will develop C and assembly-language `main` functions which call the functions shown above in order to implement the functionality of the hexdump program.
 
-Note that your main function (either version) may *only* call these functions.
+Note that your main function (either version) may *only* call these functions and (optionally) helper functions that you create.
 
 The `c_hexdump` and `asm_hexdump` Makefile targets build executable programs using these `main` modules.  When reading data from standard input, their output should be identical to the command `xxd -g 1`.
 
