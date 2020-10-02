@@ -8,11 +8,7 @@ title: "Assignment 2: Hex dump"
 * **Part 2 Due:** Tuesday, October 6, 2020 @ 11pm
 * **Collaboration:** None
 
-*Update Oct 2*: added link to late day request form
-
-*Update Oct 2*: added assembly files to "Submitting" section
-
-*Update Oct 2*: link to improved [Makefile](assign02/Makefile)
+*Update Oct 2*: link to improved [Makefile](assign02/Makefile), added assembly files to "Submitting" section, added link to late day request form
 
 *Update Sep 29*: clarified that helper functions may be called from `main`.
 
