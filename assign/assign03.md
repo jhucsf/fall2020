@@ -3,9 +3,11 @@ layout: default
 title: "Assignment 3: Cache simulator"
 ---
 
-Due: Tuesday, October 20th by 11pm
-Collaboration: 1 partner
-Late day usage: Up to 2 late days without requesting special permission (**both partners must have late days to use**)
+**Due**: Tuesday, October 20th by 11pm
+
+**Collaboration**: Pairs
+
+**Late day usage**: Up to 2 late days without requesting special permission (**both partners must have late days to use**)
 
 # Cache simulator
 
