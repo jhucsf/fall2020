@@ -7,9 +7,9 @@ title: "Assignment 3: Cache simulator"
 
 **Due**:
 
-* *Milestone 1*: Tuesday, October 13 by 11pm
-* *Milestone 2*: Friday, October 16 by 11pm
-* *Final due date*: Tuesday, October 20th by 11pm
+* *Milestone 1*: Tuesday, October 13 by 11pm (no late days)
+* *Milestone 2*: Friday, October 16 by 11pm (no late days)
+* *Final due date*: Tuesday, October 20th by 11pm (2 late days; more with permission only)
 
 **Collaboration**: Pairs
 
