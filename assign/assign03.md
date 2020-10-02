@@ -11,9 +11,9 @@ title: "Assignment 3: Cache simulator"
 * *Milestone 2*: Friday, October 16 by 11pm (no late days)
 * *Final due date*: Tuesday, October 20th by 11pm (2 late days; more with permission only)
 
-**Collaboration**: Pairs
+**Collaboration**: Pairs (groups of 2) or independent. Please register your group (or just yourself) at [this link](https://docs.google.com/forms/d/e/1FAIpQLSdtnf-3bWXp7rAuV05ahtRbnQQDKntsqhjgmTtbJmKNgsQI9A/viewform) before Wednesday, October 7.
 
-**Late day usage**: Up to 2 late days without requesting special permission (**both partners must have late days to use**)
+**Late day usage**: Up to 2 late days without requesting special permission (**both partners must have late days to use**). If you will be using more than 2 late days, please post privately on Piazza.
 
 # Cache simulator
 
