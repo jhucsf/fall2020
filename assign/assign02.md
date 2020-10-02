@@ -8,6 +8,8 @@ title: "Assignment 2: Hex dump"
 * **Part 2 Due:** Tuesday, October 6, 2020 @ 11pm
 * **Collaboration:** None
 
+*Update Oct 2*: added assembly files to "Submitting" section
+
 *Update Oct 2*: link to improved [Makefile](assign02/Makefile)
 
 *Update Sep 29*: clarified that helper functions may be called from `main`.
@@ -515,10 +517,12 @@ Archive:  solution.zip
      3959  09-13-2020 18:42   tctest.h
       884  09-13-2020 18:42   c_hexfuncs.c
       877  09-13-2020 18:42   c_hexmain.c
+     3459  09-13-2020 18:42   asm_hexfuncs.S
+      953  09-13-2020 18:42   asm_hexmain.S
      1458  09-13-2020 18:42   hextests.c
      3948  09-13-2020 18:42   tctest.c
 ---------                     -------
-    13319                     7 files
+    17731                     9 files
 ```
 
 Upload this zipfile to Gradescope for both parts 1 and 2 of Assignment 2.
