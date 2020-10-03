@@ -47,7 +47,7 @@ asm_secret_hextests : asm_hexfuncs.o secret_hextests.o tctest.o
 .PHONY: solution.zip
 solution.zip :
 	rm -f solution.zip
-	zip -9r $@ Makefile *.h *.c
+	zip -9r $@ Makefile *.h *.c *.S
 
 clean :
 	rm -f *.o c_hextests asm_hextests c_hexdump asm_hexdump casm_hexdump depend.mak solution.zip
