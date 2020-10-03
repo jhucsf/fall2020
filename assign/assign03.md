@@ -9,7 +9,7 @@ title: "Assignment 3: Cache simulator"
 
 * *Milestone 1*: Tuesday, October 13 by 11pm (no late days)
 * *Milestone 2*: Friday, October 16 by 11pm (no late days)
-* *Final due date*: Tuesday, October 20th by 11pm (2 late days; more with permission only)
+* *Final due date*: Tuesday, October 20th by 11pm (max 2 late days; more with permission only)
 
 **Collaboration**: Pairs (groups of 2) or independent. Please register your group (or just yourself) at [this link](https://docs.google.com/forms/d/e/1FAIpQLSdtnf-3bWXp7rAuV05ahtRbnQQDKntsqhjgmTtbJmKNgsQI9A/viewform) before Wednesday, October 7.
 
@@ -18,7 +18,7 @@ title: "Assignment 3: Cache simulator"
 # Cache simulator
 
 **Acknowledgment**: This assignment was originally developed by
-[Peter Froehlich](https://www.cs.jhu.edu/~phf) for [his version of
+[Peter Fröhlich](https://www.cs.jhu.edu/~phf) for [his version of
 CSF](https://www.cs.jhu.edu/~phf/2018/fall/cs229).
 
 This problem focuses on simulating and evaluating
@@ -57,7 +57,7 @@ Milestone grades will be determined as a combination of effort and code function
 * Accurate store misses: 14%
 * Accurate total cycles: 6%
 * Report on best cache: 10%
-* Design, coding style: 10%
+* Design, coding style, and contributions: 10%
 
 For the numeric results, the `Total cycles` output only needs to be within &plusmn;10%, while the other results must be exact.
 
@@ -282,7 +282,7 @@ Note that accurate cycle counting is only worth 6% of the total assignment
 grade.  Make sure that loads and stores are modeled correctly with accurate
 hit and miss counts before being too concerned about counting cycles.
 
-### Part (b): Best cache
+### Part (b): Best cache, contributions
 
 For part (b), you’ll use the memory traces as well as your
 simulator to determine which cache configuration has the **best overall
@@ -291,6 +291,8 @@ hit rates, miss penalties, total cache size (including overhead), etc.
 In your `README`, describe in detail what experiments you ran (and
 why\!), what results you got (and how\!), and what, in your opinion, is
 the best cache configuration of them all.
+
+Finally, you will write a brief summary of how you divided up the work between partners and what each person contributed. This section is not required if you worked alone.
 
 ### Credits
 
