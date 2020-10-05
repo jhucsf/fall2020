@@ -19,6 +19,7 @@ Use the links above to navigate the site.  The [Syllabus](syllabus.html) describ
 
 ## News
 
+* **Oct 5** — The due date for [Assignment 2](assign/assign02.html) has been changed to **Wednesday, Oct 7th** by 11pm.
 * **Oct 2** — An [improved Makefile](assign/assign02/Makefile) for [Assignment 2](assign/assign02.html) is available.
 * **Sep 22** — [Solutions to the assembly language mini-exercises](exercise/asmMini-soln.zip) are available.
 * **Sep 22** — A [solution to the spring 2020 midterm](resources/midterm-spring2020-soln.pdf) is available.

@@ -5,8 +5,10 @@ title: "Assignment 2: Hex dump"
 
 * **Out on:** Tuesday, September 15, 2020
 * **Part 1 Due:** Tuesday, September 29, 2020 @ 11pm
-* **Part 2 Due:** Tuesday, October 6, 2020 @ 11pm
+* **Part 2 Due:** Wednesday, October 7, 2020 @ 11pm
 * **Collaboration:** None
+
+*Update Oct 5*: due date changed to Wednesday, Oct 7th
 
 *Update Oct 2*: link to improved [Makefile](assign02/Makefile), added assembly files to "Submitting" section, added link to late day request form
 
