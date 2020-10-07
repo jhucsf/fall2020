@@ -3,8 +3,6 @@ layout: default
 title: "Assignment 3: Cache simulator"
 ---
 
-# This assignment is NOT finalized.
-
 **Due**:
 
 * *Milestone 1*: Tuesday, October 13 by 11pm (no late days)

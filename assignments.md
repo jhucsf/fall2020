@@ -22,3 +22,4 @@ Assignment | Due
 ---------- | ---
 [Assignment 1: Arbitrary-precision arithmetic](assign/assign01.html) | Tuesday, September 15th by 11pm
 [Assignment 2: Hex dump](assign/assign02.html) | Milestone 1: Tuesday, September 29th by 11pm<br>Milestone 2: Wednesday, October 7th by 11pm
+[Assignment 3: Cache simulator](assign/assign01.html) | Milestone 1: Tuesday, October 13th by 11pm<br>Milestone 2: Friday, October 16th by 11pm<br>Final due date: Tuesday, October 20th by 11pm

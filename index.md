@@ -19,6 +19,7 @@ Use the links above to navigate the site.  The [Syllabus](syllabus.html) describ
 
 ## News
 
+* **Oct 7** - [Assignment 3](assign/assign03.html) has been posted. There are three milestones, due **Tuesday, October 13th** by 11pm, **Friday, October 16th** by 11pm, and **Tuesday, October 20th** by 11pm.
 * **Oct 5** — The due date for [Assignment 2](assign/assign02.html) has been changed to **Wednesday, Oct 7th** by 11pm.
 * **Oct 2** — An [improved Makefile](assign/assign02/Makefile) for [Assignment 2](assign/assign02.html) is available.
 * **Sep 22** — [Solutions to the assembly language mini-exercises](exercise/asmMini-soln.zip) are available.
