@@ -27,19 +27,19 @@ these traces. You’ll then use your programs and the given traces to
 determine the **best overall cache configuration**.
 
 ## Submission Part 1
-**Due date 1:** Tuesday, October 16 by 11pm (10 points)
+**Due date 1:** Friday, October 16 by 11pm (10 points)
 
 For this submission, you must have started working on your code and have at least one submission uploaded to [Gradescope](https://www.gradescope.com).
 
 A good idea would be to make sure that reading traces works correctly.  Getting some of the core data structures and functions in place to do the actual cache simulation would also be a great idea, even if they're not fully implemented yet.
 
 ## Submission Part 2
-**Due date 2:** Friday, October 27 by 11pm (10 points)
+**Due date 2:** Tuesday, October 27 by 11pm (10 points)
 
 For this submission, you must have implemented your cache simulation for LRU.
 
 ## Submission Part 3
-**Due date 3:** Tuesday, October 30 by 11pm (80 points)
+**Due date 3:** Friday, October 30 by 11pm (80 points)
 
 All functions must be written with full assignment specifications met.
 

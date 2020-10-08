@@ -25,7 +25,7 @@ Assignment | Type | Due
 ---------- | :--: | ---
 [Assignment 1: Arbitrary-precision arithmetic](assign/assign01.html) | Individual | Tuesday, September 15th by 11pm
 [Assignment 2: Hex dump](assign/assign02.html) | Individual | Milestone 1: Tuesday, September 29th by 11pm<br>Milestone 2: Friday, October 9th by 11pm
-[Assignment 3: Cache simulator](assign/assign03.html) | Pair | Milestone 1: Tuesday, October 13th by 11pm<br>Milestone 2: Friday, October 16th by 11pm<br>Final due date: Tuesday, October 20th by 11pm
+[Assignment 3: Cache simulator](assign/assign03.html) | Pair | Milestone 1: Friday, October 16th by 11pm<br>Milestone 2: Tuesday, October 27th by 11pm<br>Final due date: Friday, October 30th by 11pm
 [Assignment 4: Image processing with plugins](assign/assign04.html) | Pair | Friday, November 13th by 11pm
 [Assignment 5: Network calculator](assign/assign05.html) | Pair | Friday, November 20th by 11pm
 [Assignment 6: Multithreaded network calculator](assign/assign06.html) | Pair | Tuesday, December 8th by 11pm
