@@ -5,9 +5,9 @@ title: "Assignment 3: Cache simulator"
 
 **Due**:
 
-* *Milestone 1*: Tuesday, October 13 by 11pm (no late days)
-* *Milestone 2*: Friday, October 16 by 11pm (no late days)
-* *Final due date*: Tuesday, October 20th by 11pm (max 2 late days; more with permission only)
+* *Milestone 1*: Friday, October 16 by 11pm (no late days)
+* *Milestone 2*: Tuesday, October 27 by 11pm (no late days)
+* *Final due date*: Friday, October 30th by 11pm (max 2 late days; more with permission only)
 
 **Collaboration**: Pairs (groups of 2) or independent. Please register your group (or just yourself) at [this link](https://docs.google.com/forms/d/e/1FAIpQLSdtnf-3bWXp7rAuV05ahtRbnQQDKntsqhjgmTtbJmKNgsQI9A/viewform) before Wednesday, October 7.
 
@@ -27,17 +27,19 @@ these traces. You’ll then use your programs and the given traces to
 determine the **best overall cache configuration**.
 
 ## Submission Part 1
-**Due date 1:** Tuesday, October 13 by 11pm (10 points)
+**Due date 1:** Tuesday, October 16 by 11pm (10 points)
 
 For this submission, you must have started working on your code and have at least one submission uploaded to [Gradescope](https://www.gradescope.com).
 
+A good idea would be to make sure that reading traces works correctly.  Getting some of the core data structures and functions in place to do the actual cache simulation would also be a great idea, even if they're not fully implemented yet.
+
 ## Submission Part 2
-**Due date 2:** Friday, October 16 by 11pm (10 points)
+**Due date 2:** Friday, October 27 by 11pm (10 points)
 
 For this submission, you must have implemented your cache simulation for LRU.
 
 ## Submission Part 3
-**Due date 3:** Tuesday, October 20th by 11pm (80 points)
+**Due date 3:** Tuesday, October 30 by 11pm (80 points)
 
 All functions must be written with full assignment specifications met.
 

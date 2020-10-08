@@ -19,7 +19,13 @@ Use the links above to navigate the site.  The [Syllabus](syllabus.html) describ
 
 ## News
 
-* **Oct 7** - [Assignment 3](assign/assign03.html) has been posted. There are three milestones, due **Tuesday, October 13th** by 11pm, **Friday, October 16th** by 11pm, and **Tuesday, October 20th** by 11pm.
+* **Oct 8** — Major schedule updates:
+    * The [Schedule](schedule.html) has been updated (assignment due dates are now listed, some exam dates have changed)
+    * The deadline for Milestone 2 of [Assignment 2](assign/assign02.html) has been extended to **Friday, Oct 9th** due to an autograder issue
+    * [Assignment 3](assign/assign03.html) milestones have been changed to **Friday 10/16**, **Tuesday 10/27**, and **Tuesday 10/30**
+    * **Exam 2** has been moved to **Monday, Oct 19th**
+    * [Assignment 4](assign/assign04.html), [Assignment 5](assign/assign05.html), and [Assignment 6](assign/assign06.html) have been posted (see [Assignments](assignments.html) for due dates)
+* **Oct 7** — [Assignment 3](assign/assign03.html) has been posted. There are three milestones, due **Tuesday, October 13th** by 11pm, **Friday, October 16th** by 11pm, and **Tuesday, October 20th** by 11pm.
 * **Oct 5** — The due date for [Assignment 2](assign/assign02.html) has been changed to **Wednesday, Oct 7th** by 11pm.
 * **Oct 2** — An [improved Makefile](assign/assign02/Makefile) for [Assignment 2](assign/assign02.html) is available.
 * **Sep 22** — [Solutions to the assembly language mini-exercises](exercise/asmMini-soln.zip) are available.
