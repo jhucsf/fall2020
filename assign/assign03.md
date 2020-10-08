@@ -20,7 +20,7 @@ title: "Assignment 3: Cache simulator"
 CSF](https://www.cs.jhu.edu/~phf/2018/fall/cs229).
 
 This problem focuses on simulating and evaluating
-[caches](https://en.wikipedia.org/wiki/Cache_\(computing\)). We’ll give
+[caches](https://en.wikipedia.org/wiki/Cache_(computing)). We’ll give
 you a number of **memory traces** from real benchmark programs. You’ll
 implement a program to **simulate** how a variety of caches perform on
 these traces. You’ll then use your programs and the given traces to
