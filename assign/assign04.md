@@ -178,7 +178,7 @@ In any situation where the driver program cannot complete sucessfully, it should
 * A required API function can't be found within a loaded plugin
 * A memory allocation error occurred
 
-*Update 4/6*: The error message printed if an error occurs should have the form
+The error message printed if an error occurs should have the form
 
 > <tt>Error: <i>text of error message</i></tt>
 
