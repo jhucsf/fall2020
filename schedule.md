@@ -34,15 +34,15 @@ Oct 7              | Program optimization (ILP, memory, profiling): see Piazza f
 Oct 9              | Memory hierarchy: [slides](lectures/lecture15-public.pdf) | 6.1–6.3 | [A2 MS2](assign/assign02.html) due
 Oct 12             | Cache policies: [slides](lectures/lecture16-public.pdf) | 6.4
 Oct 14             | Caches and program execution: see Piazza for slides | 6.5 |
-Oct 16             | Linking basics, symbols, relocations, executables, loading: slides | 7.1–7.9 | [A3 MS1](assign/assign03.html) due
+Oct 16             | Linking basics, symbols, relocations, executables, loading: [slides](lectures/lecture18-public.pdf) | 7.1–7.9 | [A3 MS1](assign/assign03.html) due
 Oct 19             | Review session, **Exam 2** (take-home)
-Oct 21             | Dynamic linking, shared libraries, PIC, interpositioning: slides | 7.10–7.15 |
+Oct 21             | Dynamic linking, shared libraries, PIC, interpositioning: [slides](lectures/lecture19-public.pdf), [dynload.zip (example code)](lectures/dynload.zip) | 7.10–7.15 |
 Oct 23             | *Fall break, no class*
-Oct 26             | Exceptions, Processes: slides | 8.1–8.4, 8.7 | [A3 MS2](assign/assign03.html) due Tues 10/27
-Oct 28             | Signals: slides | 8.5–8.6 |
-Oct 30             | Virtual memory: slides | 9.1–9.3 | [A3 MS3](assign/assign03.html) due
-Nov 2              | Memory management, address translation: slides | 9.4–9.7
-Nov 4              | Memory mapping, dynamic memory allocation: slides | 9.8, 9.9, 9.11 |
+Oct 26             | Exceptions, Processes: [slides](lectures/lecture20-public.pdf) | 8.1–8.4, 8.7 | [A3 MS2](assign/assign03.html) due Tues 10/27
+Oct 28             | Signals: [slides](lectures/lecture21-public.pdf), [signals.zip (example code)](lectures/signals.zip) | 8.5–8.6 |
+Oct 30             | Virtual memory: [slides](lectures/lecture22-public.pdf) | 9.1–9.3 | [A3 MS3](assign/assign03.html) due
+Nov 2              | Memory management, address translation: [slides](lectures/lecture23-public.pdf) | 9.4–9.7
+Nov 4              | Memory mapping, dynamic memory allocation: [slides](lectures/lecture24-public.pdf) | 9.8, 9.9, 9.11 |
 Nov 6              | Unix I/O, files: slides | 10.1–10.11 |
 Nov 9              | Review session, **Exam 3** (take-home)
 Nov 11             | Networks, Internet Protocol: slides | 11.1–11.3 |
