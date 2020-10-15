@@ -53,7 +53,7 @@ j = a * d * g;
 
 Assume that all of the variables refer to CPU registers, and that
 the CPU has two integer multipliers, each of which is fully pipelined, and
-can execute a single instruction in 3 cycles.  What is the mininum
+can execute a single 64-bit multiplication in 3 cycles.  What is the mininum
 number of cycles required for the computation to complete?
 
 ## C: Caches
