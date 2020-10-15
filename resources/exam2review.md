@@ -41,7 +41,20 @@ Explain the performance problem with this function and how to fix it.
 
 B2)
 
-TODO
+Consider the following C code (assume that all variables have the type
+`uint64_t`):
+
+```c
+a = b * c;
+d = e * f;
+g = h * i;
+j = a * d * g;
+```
+
+Assume that all of the variables refer to CPU registers, and that
+the CPU has two integer multipliers, each of which is fully pipelined, and
+can execute a single instruction in 3 cycles.  What is the mininum
+number of cycles required for the computation to complete?
 
 ## C: Caches
 
