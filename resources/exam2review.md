@@ -7,7 +7,19 @@ title: "Exam 2 practice questions"
 
 ## A: x86-64
 
-TODO
+Consider the following C function prototype:
+
+```c
+void str_tolower(char *s);
+```
+
+The `str_tolower` function modifies a C character string so that each
+upper case letter is converted to lower case.
+
+Show an x86-64 assembly language implementation of this function.
+Note that the ASCII codes for upper case letters are in the range
+65–90, and the ASCII codes for lower case letters are the range
+97–122.  Characters that aren't letters should not be modified.
 
 ## B: Code optimization, performance
 
@@ -51,10 +63,15 @@ g = h * i;
 j = a * d * g;
 ```
 
-Assume that all of the variables refer to CPU registers, and that
-the CPU has two integer multipliers, each of which is fully pipelined, and
-can execute a single 64-bit multiplication in 3 cycles.  What is the mininum
-number of cycles required for the computation to complete?
+Assume that
+
+* the CPU is superscalar
+* all of the variables refer to CPU registers
+* the CPU has two integer multipliers, each of which is fully pipelined
+* a single multiplication requires 3 cycles
+
+What is the mininum number of cycles required for the computation to complete?
+Justify your answer.
 
 ## C: Caches
 
