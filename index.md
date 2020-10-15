@@ -19,6 +19,7 @@ Use the links above to navigate the site.  The [Syllabus](syllabus.html) describ
 
 ## News
 
+* **Oct 15** — [Exam 2 practice questions](resources/exam2review.html) have been posted on the [Resources](resources.html) page.
 * **Oct 12** — More lecture slides and example code have been posted on the [Schedule](schedule.html) page.
 * **Oct 8** — Major schedule updates:
     * The [Schedule](schedule.html) has been updated (assignment due dates are now listed, some exam dates have changed)

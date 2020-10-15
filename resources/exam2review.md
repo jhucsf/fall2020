@@ -7,6 +7,8 @@ title: "Exam 2 practice questions"
 
 ## A: x86-64
 
+A1)
+
 Consider the following C function prototype:
 
 ```c
@@ -75,4 +77,62 @@ Justify your answer.
 
 ## C: Caches
 
-TODO
+C1)
+
+Assume a system with 32 bit addresses has a direct mapped cache with 256 KB 
+total capacity (2<sup>18</sup> bytes) and a 32 byte block size.
+Show the format of an address, indicating which bits are offset, index, and tag.
+
+C2)
+
+Assume a system with 32 bit addresses has a 4-way set associative cache
+with 512 KB total capacity (2<sup>19</sup> bytes) and a 64 byte block size.
+Show the format of an address, indicating which bits are offset, index, and tag.
+
+C3)
+
+Assume a system with 32 bit addresses and a fully associative cache with 512 KB
+total capacity (2<sup>19</sup> bytes) and a 64 byte block size.
+Show the format of an address, indicating which bits are offset, index, and tag.
+
+C4)
+
+Consider use of a 2-way associative cache that addresses blocks of 4 bytes,
+with 4 sets in a 8-bit address space.
+
+(a) How are the 8 bits of the address used as tag, index, and offset for the cache?
+
+(b) Consider a following sequence of requests to the cache.
+Enter the tag for each cache slot after each request in the table below. Assume FIFO as
+caching strategy (do not worry about internal bookkeeping of timestamps). Note: use &#34;
+to indicate that the value in the slot is identical to the previous value.
+
+<table>
+  <tr>
+   <td>Request</td>
+   <td colspan="2" style="text-align: center;">Slot 0</td>
+   <td colspan="2" style="text-align: center;">Slot 1</td>
+   <td colspan="2" style="text-align: center;">Slot 2</td>
+   <td colspan="2" style="text-align: center;">Slot 3</td>
+  </tr>
+
+  <tr style="border-bottom: 1px solid;">
+   <td></td>
+   <td>Set 0</td>
+   <td>Set 1</td>
+   <td>Set 0</td>
+   <td>Set 1</td>
+   <td>Set 0</td>
+   <td>Set 1</td>
+   <td>Set 0</td>
+   <td>Set 1</td>
+  </tr>
+
+  <tr><td>00110101</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>01101000</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>01101001</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>10010111</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>10010110</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>10110001</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>10110101</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table>
