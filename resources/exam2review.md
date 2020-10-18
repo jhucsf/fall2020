@@ -31,7 +31,7 @@ Consider the following function:
 
 ```c
 // combine a collection of strings into a single string
-char *combine(const char *strings, unsigned num_strings) {
+char *combine(const char *strings[], unsigned num_strings) {
   // determine amount of space needed
   size_t total_size = 0;
   for (unsigned i = 0; i < num_strings; i++) {
