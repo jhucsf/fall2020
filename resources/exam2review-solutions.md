@@ -164,17 +164,18 @@ Given two integer multipliers with 3 stage pipelines,
 utilization could look like this:
 
 ```
-   Time:   0    1    2    3    4    5    6   7    8    9   
+   Time:   0    1    2    3    4    5    6    7    8    9   
           -------------------------------------------------
-        / b*c  h*i       a*d           t*g           [result]
-Unit 1 |       b*c  h*i       a*d           t*g
-        \           b*c  h*i       a*d           t*g
+        / b*c  h*i       a*d            t*g           [result]
+Unit 1 |       b*c  h*i       a*d            t*g
+        \           b*c  h*i       a*d            t*g
         / e*f
 Unit 2 |       e*f
         \           e*f
 ```
 
-Thus, it is possible to complete the computation in 9 cycles.
+Thus, it is possible to complete the computation in 9 cycles, if
+the `b*c` and `e*f` multiplications both start on cycle 0.
 
 ## C: Caches
 
