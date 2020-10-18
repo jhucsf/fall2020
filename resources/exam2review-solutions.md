@@ -246,6 +246,20 @@ with 4 sets in a 8-bit address space.
 
 (a) How are the 8 bits of the address used as tag, index, and offset for the cache?
 
+*Answer*:
+
+Blocks are 4 = 2<sup>2</sup> bytes, so 2 offset bits
+
+There are 4 = 2<sup>2</sup> sets, so 2 index bits
+
+Remaining 4 bits are tag
+
+Thus,
+
+Tag    | Index  | Offset
+------ | ------ | ------
+4 bits | 2 bits | 2 bits
+
 (b) Consider a following sequence of requests to the cache.
 Enter the tag for each cache slot after each request in the table below. Assume FIFO as
 caching strategy (do not worry about internal bookkeeping of timestamps). Note: use &#34;
@@ -280,3 +294,9 @@ to indicate that the value in the slot is identical to the previous value.
   <tr><td>10110001</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
   <tr><td>10110101</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 </table>
+
+*Answer*:
+
+<div style="margin-left: 2em;">
+  <img src="C4_table-completed.svg" style="width: 40em;" alt="completed table">
+</div>
