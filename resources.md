@@ -29,7 +29,7 @@ This section links to exercises, practice problems, and similar resources.
 * [Assembly language exercise](exercise/assembly.html), [solution](exercise/asmExerciseSoln.zip)
 * [Assembly language exercise 2 (more challenging)](exercise/assembly2.html)
 * [Assembly language mini-exercises](exercise/assemblyMini.html)
-* [Exam 2 practice questions](resources/exam2review.html)
+* [Exam 2 practice questions](resources/exam2review.html), [Answers](resources/exam2review-solutions.html)
 
 # Software
 

@@ -19,6 +19,7 @@ Use the links above to navigate the site.  The [Syllabus](syllabus.html) describ
 
 ## News
 
+* **Oct 18** — The [Spring 2020 final exam solution](resources/final-spring2020-soln.pdf) and [answers to the exam 2 practice questions](resources/exam2review-solutions.html) are available.
 * **Oct 15** — [Exam 2 practice questions](resources/exam2review.html) have been posted on the [Resources](resources.html) page.
 * **Oct 12** — More lecture slides and example code have been posted on the [Schedule](schedule.html) page.
 * **Oct 8** — Major schedule updates:
