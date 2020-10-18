@@ -110,22 +110,22 @@ to indicate that the value in the slot is identical to the previous value.
 <table>
   <tr>
    <td>Request</td>
-   <td colspan="2" style="text-align: center;">Slot 0</td>
-   <td colspan="2" style="text-align: center;">Slot 1</td>
-   <td colspan="2" style="text-align: center;">Slot 2</td>
-   <td colspan="2" style="text-align: center;">Slot 3</td>
+   <td colspan="2" style="text-align: center;">Set 0</td>
+   <td colspan="2" style="text-align: center;">Set 1</td>
+   <td colspan="2" style="text-align: center;">Set 2</td>
+   <td colspan="2" style="text-align: center;">Set 3</td>
   </tr>
 
   <tr style="border-bottom: 1px solid;">
    <td></td>
-   <td>Set 0</td>
-   <td>Set 1</td>
-   <td>Set 0</td>
-   <td>Set 1</td>
-   <td>Set 0</td>
-   <td>Set 1</td>
-   <td>Set 0</td>
-   <td>Set 1</td>
+   <td>Slot 0</td>
+   <td>Slot 1</td>
+   <td>Slot 0</td>
+   <td>Slot 1</td>
+   <td>Slot 0</td>
+   <td>Slot 1</td>
+   <td>Slot 0</td>
+   <td>Slot 1</td>
   </tr>
 
   <tr><td>00110101</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
