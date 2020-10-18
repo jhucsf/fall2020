@@ -161,20 +161,20 @@ j = t * g;
 ```
 
 Given two integer multipliers with 3 stage pipelines,
-utilization will look like this:
+utilization could look like this:
 
 ```
-   Time:   0    1    2    3    4    5    6   7    8    9    10
-          ---------------------------------------------------------
-        / b*c  e*f            a*d           t*g            [result]
-Unit 1 |       b*c  e*f            a*d           t*g
-        \           b*c  e*f            a*d           t*g
-        / h*i
-Unit 2 |       h*i
-        \           h*i
+   Time:   0    1    2    3    4    5    6   7    8    9   
+          -------------------------------------------------
+        / b*c  h*i       a*d           t*g           [result]
+Unit 1 |       b*c  h*i       a*d           t*g
+        \           b*c  h*i       a*d           t*g
+        / e*f
+Unit 2 |       e*f
+        \           e*f
 ```
 
-So, the computation should take 10 cycles.
+Thus, it is possible to complete the computation in 9 cycles.
 
 ## C: Caches
 
