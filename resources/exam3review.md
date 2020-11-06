@@ -51,8 +51,6 @@ Assume a uniprocessor (single core) system in which the timer interrupt occurs a
 
 **C1)** On Linux, the `printf` function is not "async signal safe", which means that it can't be called safely from a signal handler function.  Describe a scenario where calling `printf` from a signal handler function might result in undesirable program behavior.
 
-**C2)** 
-
 # D. Virtual memory
 
 **D1)** Consider the following function:
