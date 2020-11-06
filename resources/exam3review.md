@@ -53,4 +53,16 @@ TODO
 
 # D. Virtual memory
 
-TODO
+D1) Consider the following function:
+
+```c
+uint32_t sum_up_to(unsigned n) {
+  uint32_t sum = 0;
+  for (unsigned i = 1; i <= n; i++) {
+    sum += i;
+  }
+  return sum;
+}
+```
+
+Assume that all of the variables in this function (`n`, `sum`, and `i`) are allocated by the compiler as CPU registers, so that there are no memory references in the assembly code generated for this function.  Is it possible for any page faults to occur as a result of executing this function? Briefly explain why or why not.
