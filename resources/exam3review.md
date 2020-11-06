@@ -49,7 +49,9 @@ Assume a uniprocessor (single core) system in which the timer interrupt occurs a
 
 # C. Signals
 
-TODO
+C1) On Linux, the `printf` function is not "async signal safe", which means that it can't be called safely from a signal handler function.  Describe a scenario where calling `printf` from a signal handler function might result in undesirable program behavior.
+
+C2) 
 
 # D. Virtual memory
 
@@ -66,3 +68,11 @@ uint32_t sum_up_to(unsigned n) {
 ```
 
 Assume that all of the variables in this function (`n`, `sum`, and `i`) are allocated by the compiler as CPU registers, so that there are no memory references in the assembly code generated for this function.  Is it possible for any page faults to occur as a result of executing this function? Briefly explain why or why not.
+
+D2) Say that you have a CPU with 64 bit virtual addresses and a 16K (2<sup>14</sup> bytes) page size.  Assume that page table entries (at all levels of the page table hierarchy) are the same size as addresses, i.e., 8 bytes.
+
+(a) If the full 64 bit address space is usable, how many of page tables are necessary?
+
+(b) Show a proposed format for a virtual address, showing the ranges of address bits used for the page offset and the index at each level of the hierarchy.
+
+(c) Explain why, from a practical standpoint, to support an effective virtual address space of less than 2<sup>64</sup> bytes.
