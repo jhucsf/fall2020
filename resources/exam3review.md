@@ -29,7 +29,23 @@ A2) Let's say that you have a Linux executable that you don't have the source co
 
 # B. Exceptions and processes
 
-TODO
+B1) Consider the following function:
+
+```c
+uint64_t sum_array(uint32_t arr[], unsigned len) {
+  uint64_t sum = 0;
+  for (unsigned i = 0; i < len; i++) {
+    sum += arr[i];
+  }
+  return sum;
+}
+```
+
+Assume that this function is called to find the sum of the elements in a very large (hundreds of millions of elements.)  State some possible reasons why the process executing this function might be suspended and resumed during the execution of the function.
+
+B2) Most operating systems use a periodic timer interrupt to ensure that the OS kernel is able to make scheduling decisions on a regular basis.  I.e., the timer interrupt handler can ensure that no process is able to have exclusive use of a CPU core for an indefinite period of time.
+
+Assume a uniprocessor (single core) system in which the timer interrupt occurs at fixed intervals.  State some advantages and disadvantages of making the timer interval longer rather than shorter.
 
 # C. Signals
 
