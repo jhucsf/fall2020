@@ -25,6 +25,8 @@ Note that in the encoding of the `callq` instruction, the address of the functio
 
 What are some advantages of encoding the address of a called function as a relative displacement rather than an absolute address?  What are some disadvantages?
 
+A2) Let's say that you have a Linux executable that you don't have the source code for, and you want to change its behavior so that whenever it tries to open a file, it will be forced to look in a particular directory.  For example, if the process wants to open the file `foobar.txt`, it will actually open `/tmp/look_here/foobar.txt`.  What would be an easy way to accomplish this that doesn't require any modifications to the executable or any system libraries?  You may assume that all files will be opened via calls to the `open` function in the shared C library, which is a wrapper for the `open` system call.
+
 # B. Exceptions and processes
 
 TODO
