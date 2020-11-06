@@ -75,4 +75,4 @@ D2) Say that you have a CPU with 64 bit virtual addresses and a 16K (2<sup>14</s
 
 (b) Show a proposed format for a virtual address, showing the ranges of address bits used for the page offset and the index at each level of the hierarchy.
 
-(c) Explain why, from a practical standpoint, to support an effective virtual address space of less than 2<sup>64</sup> bytes.
+(c) Explain why, from a practical standpoint, it might be a good idea to support an effective virtual address space of less than 2<sup>64</sup> bytes.
