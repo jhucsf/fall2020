@@ -73,6 +73,10 @@ Assume a uniprocessor (single core) system in which the timer interrupt occurs a
 
 **C1)** On Linux, the `printf` function is not "async signal safe", which means that it can't be called safely from a signal handler function.  Describe a scenario where calling `printf` from a signal handler function might result in undesirable program behavior.
 
+**Possible answer**:
+
+`printf` is hard-coded to write to `stdout`, which is essentially a global pointer to a `FILE` object.  The `FILE` object includes a buffer and fields which indicate how much of the buffer is used.  If a signal arrives at a time when the "main program" is in a call to `printf`, the buffer and fields in the `FILE` object `stdout` points to might be in an inconsistent state, and so calling `printf` again from the signal handler might result in erratic behavior, since `stdout` is in an inconsistent state.
+
 ## D. Virtual memory
 
 **D1)** Consider the following function:
@@ -88,6 +92,10 @@ uint32_t sum_up_to(unsigned n) {
 ```
 
 Assume that all of the variables in this function (`n`, `sum`, and `i`) are allocated by the compiler as CPU registers, so that there are no memory references in the assembly code generated for this function.  Is it possible for any page faults to occur as a result of executing this function? Briefly explain why or why not.
+
+**Possible answer**:
+
+Page faults could definitely occur due to instruction fetches, if the code for the instructions implementing the loop are in a virtual page which is not currently mapped to a physical page.
 
 **D2)** Say that you have a CPU with 64 bit virtual addresses and a 16K (2<sup>14</sup> bytes) page size.  Assume that page table entries (at all levels of the page table hierarchy) are the same size as addresses, i.e., 8 bytes.
 
