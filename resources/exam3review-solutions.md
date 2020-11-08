@@ -27,7 +27,15 @@ Note that in the encoding of the `callq` instruction, the address of the functio
 
 What are some advantages of encoding the address of a called function as a relative displacement rather than an absolute address?  What are some disadvantages?
 
+**Possible answer:**
+
+One advantage of implementing calls as relative displacements is that the call is automatically position-independent, i.e., the code can be loaded anywhere in the virtual address space, and the relative calls will work correctly.  Main disadvantage: an addition to the instruction pointer value is required (hardware implementation is slightly more complicated than if the target address were absolute).
+
 **A2)** Let's say that you have a Linux executable that you don't have the source code for, and you want to change its behavior so that whenever it tries to open a file, it will be forced to look in a particular directory.  For example, if the process wants to open the file `foobar.txt`, it will actually open `/tmp/look_here/foobar.txt`.  What would be an easy way to accomplish this that doesn't require any modifications to the executable or any system libraries?  You may assume that all files will be opened via calls to the `open` function in the shared C library, which is a wrapper for the `open` system call.
+
+**Possible answer:**
+
+Implement a shared library that defines an `open` function which does the desired transformation on the pathname, and then calls the "real" `open` system call, either by calling the wrapper function in the shared C library (`dlopen` and `dlsym` can be used to get the address of this function), or by using a `syscall` instruction.  This shared library can then be interposed using `LD_LIBRARY_PATH`, so that calls to `open` in the executable are redirected to the "instrumented" version of `open` in the shared library we created.
 
 ## B. Exceptions and processes
 
@@ -45,9 +53,21 @@ uint64_t sum_array(uint32_t arr[], unsigned len) {
 
 Assume that this function is called to find the sum of the elements in a very large (hundreds of millions of elements.)  State some possible reasons why the process executing this function might be suspended and resumed during the execution of the function.
 
+**Possible answer**:
+
+This loop is entirely computational, i.e., it doesn't invoke any system calls, so there are no "voluntary" transitions into the OS kernel.
+
+Some reasons why such a transition might occur include:
+
+* The timer interrupt was handled, and the OS kernel chose to execute a different process
+* A hardware device raised an interrupt, e.g., a disk I/O request completed, and the OS kernel chose to activate the process which requested the I/O
+* A page fault occurred (if the array is large, then it might not be entirely mapped into virtual memory); if disk I/O is needed to handle the page fault, the OS kernel might switch to another process
+
 **B2)** Most operating systems use a periodic timer interrupt to ensure that the OS kernel is able to make scheduling decisions on a regular basis.  I.e., the timer interrupt handler can ensure that no process is able to have exclusive use of a CPU core for an indefinite period of time.
 
 Assume a uniprocessor (single core) system in which the timer interrupt occurs at fixed intervals.  State some advantages and disadvantages of making the timer interval longer rather than shorter.
+
+**Possible answer**: Switching from one process to another has a cost (e.g., TLB misses because of switching to a different virtual address space.)  A longer "quantum" (the interval between timer interrupts) reduces the overall context switch overhead because context switches occur less frequently.  The disadvantage is that a computationally-intensive process may "hog" the CPU, making the system less responsive.
 
 ## C. Signals
 
