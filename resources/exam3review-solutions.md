@@ -101,9 +101,27 @@ Page faults could definitely occur due to instruction fetches, if the code for t
 
 (a) If the full 64 bit address space is usable, how many levels of page tables are necessary?
 
+The page offset will be 14 bits.  64 - 14 is 50.  Each 16K page has room for 2<sup>11</sup> = 2048 page table entries, so the index at each level will be 11 bits.  We will thus need at least 5 levels of page tables (not counting the physical pages as a level); 4 levels would not be sufficient because that would only correspond to 44 bits of the virtual page number.
+
 (b) Show a proposed format for a virtual address, assuming that the entire 64 bit virtual address space is usable, showing the ranges of address bits used for the page offset and the index at each level of the hierarchy.
 
+**Possible answer**:
+
+Level 0 index | Level 1 index | Level 2 index | Level 3 index | Level 4 index | Page offset
+:-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :---------:
+10 bits       | 10 bits       | 10 bits       | 10 bits       | 10 bits       | 14 bits
+
+Note that we would only be using half of the available entries at each level.  Also, it might make more sense to use a format such as
+
+Level 0 index | Level 1 index | Level 2 index | Level 3 index | Level 4 index | Page offset
+:-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :---------:
+6 bits        | 11 bits       | 11 bits       | 11 bits       | 11 bits       | 11 bits
+
 (c) Explain why, from a practical standpoint, it might be a good idea to support an effective virtual address space of less than 2<sup>64</sup> bytes.
+
+**Possible answer**:
+
+The more levels in the hierarchy, the higher the cost of handling a TLB miss.  Since 2<sup>64</sup> is a truly enormous amount of virtual address space, it might make sense to reduce the effective size of the virtual address space in favor of having fewer levels of hierachy.  For example, with 4 levels and a 16 KB page size, the effective size of the virtual address space would be 2<sup>44+14</sup> = 2<sup>58</sup>.
 
 **D3)** On x86-64 systems, there are four levels of page tables, with each page table having 512 (2<sup>9</sup>) entries.  The page size is 4096 (2<sup>12</sup>) bytes.  This scheme provides an effective virtual address size of 2<sup>48</sup> bytes, since
 
