@@ -101,6 +101,8 @@ Page faults could definitely occur due to instruction fetches, if the code for t
 
 (a) If the full 64 bit address space is usable, how many levels of page tables are necessary?
 
+**Possible answer**:
+
 The page offset will be 14 bits.  64 - 14 is 50.  Each 16K page has room for 2<sup>11</sup> = 2048 page table entries, so the index at each level will be 11 bits.  We will thus need at least 5 levels of page tables (not counting the physical pages as a level); 4 levels would not be sufficient because that would only correspond to 44 bits of the virtual page number.
 
 (b) Show a proposed format for a virtual address, assuming that the entire 64 bit virtual address space is usable, showing the ranges of address bits used for the page offset and the index at each level of the hierarchy.
