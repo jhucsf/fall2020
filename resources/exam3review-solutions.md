@@ -131,4 +131,18 @@ The more levels in the hierarchy, the higher the cost of handling a TLB miss.  S
 
 (a) In the *page directory*, which is the page table at the root of the tree, how much virtual address space (in bytes) does each entry represent?
 
+**Possible solution**:
+
+There are 512 (2<sup>9</sup>) entries in the page directory, so each one controls 2<sup>48</sup> / 2<sup>9</sup> = 2<sup>39</sup> bytes of the virtual address space.
+
 (b) What is the total number of second level, third level, and fourth level page tables that could be reached from a single entry in the page directory?  How many bytes of physical memory are required if all of these page tables are present?
+
+**Possible solution**:
+
+For each entry in the page directory there could be:
+
+* 1 second level page table
+* 512 third level page tables
+* 512 × 512 = 262,144 fourth level page tables
+
+If fully populated, these would require (1 + 512 + 262,144) × 4096 = 1,075,843,072 bytes.  This would be a great deal of memory, but since virtual adddress spaces are typically sparse, this situation is unlikely to arise in practice.
