@@ -301,6 +301,8 @@ $ zip -9r solution.zip Makefile *.c *.h
 
 A reference `Makefile` is provided: [Makefile](assign04/Makefile).  You may use or adapt this `Makefile` if you choose to.
 
+A second reference makefile might be appropriate if your driver program and/or plugins are implemented in C++: [Makefile2](assign04/Makefile2) (note that you will need to rename this as `Makefile`
+
 Submit your zipfile to [Gradescope](https://www.gradescope.com/) as **Assignment4**.
 
 <!--
