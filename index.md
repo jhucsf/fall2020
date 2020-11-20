@@ -19,6 +19,7 @@ Use the links above to navigate the site.  The [Syllabus](syllabus.html) describ
 
 ## News
 
+* **Nov 20** — [Assignment 7](assign/assign07.html), an optional extra-credit assignment, is due by **Friday, Dec 11th**.
 * **Nov 8** — [Solutions to exam 3 practice problems](resources/exam3review-solutions.html) are available.
 * **Nov 6** — [Exam 3 practice questions](resources/exam3review.html) are available.  Also note that Questions 2 and 3 from the [Spring 2020 final exam](resources/final-spring2020.pdf) are relevant to Exam 3 topics.
 * **Nov 4** — The [Schedule](schedule.html) has been updated with the remaining lecture slides and example code.
