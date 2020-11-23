@@ -7,6 +7,8 @@ title: "Assignment 7: Arbitrary-precision calculator"
 
 **Assignment type:** This is an optional **individual** assignment; it will be graded for extra credit
 
+*Update 11/23*: The [Testing](#testing) section has been updated with instructions on how to download and run the script the autograder tests will use
+
 # Overview
 
 In this assignment, you will use your arbitrary-precision integer data type from [Assignment 1](assign01.html) to implement a simple calculator program.
@@ -155,6 +157,26 @@ $ <b>ruby ./fakecalc.rb</b>
 <b>foo * 0xcd81ffdef59348d2f157</b>
 0x241e2b6f7447bb1c33cca0de044423db90836c05c13adf9c7c6501aee00
 </pre></div>
+
+The autograder will test your `apcalc` program using a script, running it with a specific input file and then checking that the expected output was produced.  You can download the script and example input/output files by running the following commands:
+
+```
+mkdir -p input expected_output
+curl -O https://jhucsf.github.io/fall2020/assign/assign07/example.in
+mv example.in input
+curl -O https://jhucsf.github.io/fall2020/assign/assign07/example.out
+mv example.out expected_output
+curl -O https://jhucsf.github.io/fall2020/assign/assign07/run_test.rb
+chmod a+x run_test.rb
+```
+
+Next, run the script as follows:
+
+```
+./run_test.rb example
+```
+
+If you see the output `Program output matched expected output`, then your `apcalc` produced the expected output for the example input file.
 
 # Submitting
 
