@@ -9,9 +9,13 @@ title: "Assignment 7: Arbitrary-precision calculator"
 
 *Update 11/23*: The [Testing](#testing) section has been updated with instructions on how to download and run the script the autograder tests will use
 
+*Update 11/29*: Mention how much this assignment is worth.
+
 # Overview
 
 In this assignment, you will use your arbitrary-precision integer data type from [Assignment 1](assign01.html) to implement a simple calculator program.
+
+This is an extra credit assignment.  It is worth up to 4.5 points, to be added to your course average.  This means it is worth about half of what the other assignments are worth.
 
 ## Grading criteria
 
