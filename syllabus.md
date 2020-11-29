@@ -10,6 +10,7 @@ category: "syllabus"
   <b>Fall, 2020 (3 credits, E)</b><br>
 </div>
 
+*Revised 11/28/2020 — CA list updated*
 *Revised 9/14/2020 — late days policy has been updated, CA list updated*
 
 ## Instructor
@@ -38,6 +39,7 @@ CAs:
 * Simon    Allocca [sallocc1@jh.edu](mailto:sallocc1@jh.edu)
 * Yunxiao (Gary)    Yang [yyang117@jhu.edu](mailto:yyang117@jhu.edu)
 * Shravan Venkatesan [svenka16@jhu.edu](mailto:svenka16@jhu.edu)
+* David Skaff [dskaff1@jhu.edu](mailto:dskaff1@jhu.edu)
 
 ## Meeting
 
