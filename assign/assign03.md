@@ -2,6 +2,7 @@
 layout: default
 title: "Assignment 3: Cache simulator"
 ---
+*Update Oct 22*: final scores reweighted
 
 **Due**:
 
@@ -46,18 +47,19 @@ All functions must be written with full assignment specifications met.
 
 ## Grading criteria
 
-Milestone grades will be determined as a combination of effort and code functionality. For the final submission, your grade will be determined as follows:
+Milestone grades will be determined as a combination of effort and code functionality. Your final grade will be determined as follows:
 
-* Gracefully handling invalid parameters: 2%
-* Accurate load count: 8%
-* Accurate store count: 8%
-* Accurate load hits: 14%
-* Accurate load misses: 14%
-* Accurate store hits: 14%
-* Accurate store misses: 14%
-* Accurate total cycles: 6%
+* Gracefully handling invalid parameters: 1.5%
+* Accurate load count: 7.5%
+* Accurate store count: 7.5%
+* Accurate load hits: 12%
+* Accurate load misses: 12%
+* Accurate store hits: 12%
+* Accurate store misses: 12%
+* Accurate total cycles: 5.5%
 * Report on best cache: 10%
 * Design, coding style, and contributions: 10%
+* Effort shown in Milestone 1: 10%
 
 For the numeric results, the `Total cycles` output only needs to be within &plusmn;10%, while the other results must be exact.
 

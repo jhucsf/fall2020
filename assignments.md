@@ -29,3 +29,4 @@ Assignment | Type | Due
 [Assignment 4: Image processing with plugins](assign/assign04.html) | Pair | Friday, November 13th by 11pm
 [Assignment 5: Network calculator](assign/assign05.html) | Pair | Friday, November 20th by 11pm
 [Assignment 6: Multithreaded network calculator](assign/assign06.html) | Pair | Tuesday, December 8th by 11pm
+[Assignment 7: Arbitrary-precision calculator](assign/assign07.html) | Individual,<br>extra credit | Friday, December 11th by 11pm

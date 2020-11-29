@@ -43,17 +43,17 @@ Oct 28             | Signals: [slides](lectures/lecture21-public.pdf), [signals.
 Oct 30             | Virtual memory: [slides](lectures/lecture22-public.pdf) | 9.1–9.3 | [A3 MS3](assign/assign03.html) due
 Nov 2              | Memory management, address translation: [slides](lectures/lecture23-public.pdf) | 9.4–9.7
 Nov 4              | Memory mapping, dynamic memory allocation: [slides](lectures/lecture24-public.pdf) | 9.8, 9.9, 9.11 |
-Nov 6              | Unix I/O, files: slides | 10.1–10.11 |
+Nov 6              | Unix I/O, files: [slides](lectures/lecture25-public.pdf) | 10.1–10.11 |
 Nov 9              | Review session, **Exam 3** (take-home)
-Nov 11             | Networks, Internet Protocol: slides | 11.1–11.3 |
-Nov 13             | Sockets, Application Protocols: slides | 11.4 | [A4](assign/assign04.html) due
-Nov 16             | Network applications, HTTP: slides | 11.4–11.6 | 
-Nov 18             | Concurrency with processes: slides | 12.1 |
-Nov 20             | Concurrency with threads: slides | 12.3 | [A5](assign/assign05.html) due
+Nov 11             | Networks, Internet Protocol: [slides](lectures/lecture26-public.pdf) | 11.1–11.3 |
+Nov 13             | Sockets, Application Protocols: [slides](lectures/lecture27-public.pdf), [sockets.zip (example code)](lectures/sockets.zip) | 11.4 | [A4](assign/assign04.html) due
+Nov 16             | Network applications, HTTP: [slides](lectures/lecture28-public.pdf), [webserver.zip (example code)](lectures/webserver.zip) | 11.4–11.6 | 
+Nov 18             | Concurrency with processes: [slides](lectures/lecture29-public.pdf), [mp\_webserver.zip (example code)](lectures/mp_webserver.zip) | 12.1 |
+Nov 20             | Concurrency with threads: [slides](lectures/lecture30-public.pdf), [mt\_webserver.zip (example code)](lectures/mt_webserver.zip), [mandelbrot.zip (example code)](lectures/mandelbrot.zip) | 12.3 | [A5](assign/assign05.html) due
 Nov 23–27          | *Thanksgiving vacation, no class*
-Nov 30             | Thread synchronization: slides | 12.4–12.5
-Dec 2              | Concurrency with I/O multiplexing: slides | 12.2 |
-Dec 4              | Parallelism, concurrency issues: slides | 12.6–12.7 |
+Nov 30             | Thread synchronization: [slides](lectures/lecture31-public.pdf), [synch.zip (example code)](lectures/synch.zip) | 12.4–12.5
+Dec 2              | Concurrency with I/O multiplexing: [slides](lectures/lecture32-public.pdf), [iomux.zip (example code)](lectures/iomux.zip) | 12.2 |
+Dec 4              | Parallelism, concurrency issues: [slides](lectures/lecture33-public.pdf), [synch2.zip (example code)](lectures/synch2.zip) | 12.6–12.7 |
 Dec 7              | | | [A6](assign/assign06.html) due Tues 12/8
 Dec 9              | Final exam review session | |
 TBD                | **Exam 4** (take-home, during final exam period)
