@@ -115,7 +115,7 @@ Any integer can be represented as the sum of powers of 2.  For example,
 Let's say we want to multiply another integer *m* by 37.  We can simply compute the sum of multiplying *m* by the powers of 2 that make up 37, as follows:
 
 <blockquote>
-37 × <i>m</i> = (2<sup>5</sup> × <i>m</i>) + (2<sup>2</sup> × <i>m</i>) + × (2<sup>0</sup> × <i>m</i>)
+37 × <i>m</i> = (2<sup>5</sup> × <i>m</i>) + (2<sup>2</sup> × <i>m</i>) + (2<sup>0</sup> × <i>m</i>)
 </blockquote>
 
 As we know, left shifting an integer's binary representation by *n* bits is equivalent to multiplying it by 2<sup><i>n</i></sup>.  This suggests an algorithm for multiplying arbitrary-precision integers *a* and *b*:
