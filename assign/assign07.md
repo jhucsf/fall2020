@@ -11,6 +11,8 @@ title: "Assignment 7: Arbitrary-precision calculator"
 
 *Update 11/29*: Mention how much this assignment is worth.
 
+*Update 11/29*: Mention the "UNGRADED ApInt Tester" assignment on Gradescope to test ApInt implementation
+
 # Overview
 
 In this assignment, you will use your arbitrary-precision integer data type from [Assignment 1](assign01.html) to implement a simple calculator program.
@@ -181,6 +183,8 @@ Next, run the script as follows:
 ```
 
 If you see the output `Program output matched expected output`, then your `apcalc` produced the expected output for the example input file.
+
+If you have made changes to your ApInt code from Assignment 1, you may submit that code to the "UNGRADED ApInt Tester" assignment on Gradescope. This will not be evaluated as part of your final grade, and is just to help you debug your code as you prepare for Assignment 7. It is the same autograder as was used in Assignment 1.
 
 # Submitting
 
