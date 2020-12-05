@@ -3,7 +3,7 @@ layout: default
 title: "Exam 3 practice questions"
 ---
 
-# Exam 3 practice questions — solutions
+# Exam 3 practice questions
 
 ## A. Linking, shared libraries
 
