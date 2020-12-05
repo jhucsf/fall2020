@@ -14,6 +14,7 @@ This section has links to some information resources you might find useful.
 
 * [Midterm, Spring 2020](resources/midterm-spring2020.pdf), [Solution](resources/midterm-spring2020-soln.pdf)
 * [Final, Spring 2020](resources/final-spring2020.pdf), [Solution](resources/final-spring2020-soln.pdf)
+* [Final, Fall 2019](resources/final-fall2019.pdf)
 
 ## x86-64 assembly programming resources
 
