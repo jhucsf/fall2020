@@ -43,7 +43,7 @@ For example, if the client sends
 
 ```
 Hello, world
-My hovercraft is full of eels
+Colorless green sheep sleep furiously
 A smell of petroleum prevails throughout
 quit
 ```
@@ -52,7 +52,7 @@ then the server should send back
 
 ```
 dlrow ,olleH
-slee fo lluf si tfarcrevoh yM
+ylsuoiruf peels peehs neerg sselroloC
 tuohguorht sliaverp muelortep fo llems A
 ```
 
@@ -65,7 +65,59 @@ void chat_with_client(int client_fd) {
 
 ## C. Concurrency
 
-**C1)**
+**C1)** Consider the following `IntStack` data type.
+
+The header file:
+
+```c
+// intstack.h
+
+#ifndef INTSTACK_H
+#define INTSTACK_H
+
+#define MAX 256
+
+struct IntStack {
+  int contents[MAX];
+  int top;
+};
+
+void intstack_init(struct IntStack *s);
+void intstack_push(struct IntStack *s, int val);
+int intstack_pop(struct IntStack *s);
+
+#endif // INTSTACK_H
+```
+
+The implementation file:
+
+```c
+// intstack.c
+
+void intstack_init(struct IntStack *s) {
+  s->top = 0;
+}
+
+void intstack_push(struct IntStack *s, int val) {
+  assert(s->top < MAX);
+  s->contents[s->top] = val;
+  s->top++;
+}
+
+int intstack_pop(struct IntStack *s) {
+  assert(s->top > 0);
+  s->top--;
+  return s->contents[s->top];
+}
+```
+
+Modify the `IntStack` data type so that it can be safely used by multiple threads.
+
+When the `intstack_push` function is called, and the stack is full, the function
+should wait until the stack is not full, and then push the specified value.
+
+When the `intstack_pop` function is called, and the stack is empty, the function
+should wait until the stack is not empty, and then pop the top value.
 
 
 **C2)**
