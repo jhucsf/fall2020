@@ -118,7 +118,3 @@ should wait until the stack is not full, and then push the specified value.
 
 When the `intstack_pop` function is called, and the stack is empty, the function
 should wait until the stack is not empty, and then pop the top value.
-
-
-**C2)**
-
