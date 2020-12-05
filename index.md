@@ -19,6 +19,7 @@ Use the links above to navigate the site.  The [Syllabus](syllabus.html) describ
 
 ## News
 
+* **Dec 5** — [Exam 4 review problems](resources/exam4review.html) are available.
 * **Nov 29** — [Assignment 7](assign/assign07.html) will be worth up to +4.5 points added to your course average.  This makes it worth about half of a normal assignment, but it is strictly extra credit.
 * **Nov 23** — [Assignment 7](assign/assign07.html) has been updated with an automated test script and example input.
 * **Nov 20** — [Assignment 7](assign/assign07.html), an optional extra-credit assignment, is due by **Friday, Dec 11th**.
