@@ -54,6 +54,6 @@ Nov 23–27          | *Thanksgiving vacation, no class*
 Nov 30             | Thread synchronization: [slides](lectures/lecture31-public.pdf), [synch.zip (example code)](lectures/synch.zip) | 12.4–12.5
 Dec 2              | Concurrency with I/O multiplexing: [slides](lectures/lecture32-public.pdf), [iomux.zip (example code)](lectures/iomux.zip) | 12.2 |
 Dec 4              | Parallelism, concurrency issues: [slides](lectures/lecture33-public.pdf), [synch2.zip (example code)](lectures/synch2.zip) | 12.6–12.7 |
-Dec 7              | | | [A6](assign/assign06.html) due Tues 12/8
+Dec 7              | Bonus topics: [slides](lectures/lecture34-public.pdf), [bonus.zip (example code)](lectures/bonus.zip) | | [A6](assign/assign06.html) due Tues 12/8
 Dec 9              | Final exam review session | |
 TBD                | **Exam 4** (take-home, during final exam period)
