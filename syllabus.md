@@ -10,8 +10,9 @@ category: "syllabus"
   <b>Fall, 2020 (3 credits, E)</b><br>
 </div>
 
-*Revised 11/28/2020 — CA list updated*
 *Revised 9/14/2020 — late days policy has been updated, CA list updated*
+
+*Revised 11/28/2020 — CA list updated*
 
 ## Instructor
 
