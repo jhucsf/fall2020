@@ -255,14 +255,18 @@ int intstack_pop(struct IntStack *s) {
   // wait for item to be available
   sem_wait(&s->items);
 
+  int item;
+
   // pop an item
   pthread_mutex_lock(&s->lock);
   assert(s->top > 0);
   s->top--;
-  return s->contents[s->top];
+  item = s->contents[s->top];
   pthread_mutex_unlock(&s->lock);
 
   // a slot is now available
   sem_post(&s->slots);
+
+  return item;
 }
 ```
