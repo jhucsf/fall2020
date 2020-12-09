@@ -232,8 +232,8 @@ Implementation file:
 void intstack_init(struct IntStack *s) {
   s->top = 0;
   pthread_mutex_init(&s->lock, NULL);
-  sem_init(&s->slots, MAX); // initially, all slots available
-  sem_init(&s->items, 0);   // initially, no items available
+  sem_init(&s->slots, 0, MAX); // initially, all slots available
+  sem_init(&s->items, 0, 0);   // initially, no items available
 }
 
 void intstack_push(struct IntStack *s, int val) {
