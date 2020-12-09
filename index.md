@@ -19,6 +19,7 @@ Use the links above to navigate the site.  The [Syllabus](syllabus.html) describ
 
 ## News
 
+* **Dec 9** — Errors in the [exam 4 review solutions](resources/exam4review-solutions.html) have been corrected.
 * **Dec 8** — [Solutions to the exam 4 review problems](resources/exam4review-solutions.html) and the [Fall 2019 final exam solution](resources/final-fall2019-soln.pdf) are available.
 * **Dec 6** — [Slides](lectures/lecture34-public.pdf) and [example code](lectures/bonus.zip) for the Dec 7th class meeting are available on the [Schedule](schedule.html) page.
 * **Dec 5** — [Exam 4 review problems](resources/exam4review.html) are available.
